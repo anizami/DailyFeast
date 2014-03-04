@@ -50,6 +50,7 @@
             android:layout_height="wrap_content"
             android:text="See Today's Menu"
             android:layout_gravity="center_horizontal"
+            android:textSize="26sp"
             />
     </LinearLayout>
 

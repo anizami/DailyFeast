@@ -12,7 +12,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="TodayActivity" android:label="@string/todays_events_name"></activity>
-        <activity android:name="SpecificActivity" android:label="@string/specific_event_name"></activity>
+        <activity android:name="Piper" android:label="@string/specific_event_name"></activity>
     </application>
 </manifest>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DailyFeast</string>
-    <string name="todays_events_name">Today\s Events</string>
-    <string name="specific_event_name"> Specific Event</string>
+    <string name="specific_event_name"> Today's Events</string>
 </resources>
