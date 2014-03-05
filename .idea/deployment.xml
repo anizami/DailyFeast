@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="DailyFeast" persistUploadOnCheckin="false" />
+  <component name="PublishConfigData" serverName="DailyFeast" uploadOnCheckin="87041689-5d7a-4e29-a188-490d7f1821b0">
+    <option name="myUploadOnCheckinName" value="DailyFeast" />
+  </component>
 </project>
 

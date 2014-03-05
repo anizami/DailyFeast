@@ -4,11 +4,13 @@ public class Event {
     private String title;
     private String location;
     private String description;
+    private String time;
 
-    public Event(String title, String location, String description) {
+    public Event(String title, String time, String location, String description) {
         this.title = title;
         this.location = location;
         this.description = description;
+        this.time = time;
     }
 
     public String getTitle() {
@@ -17,6 +19,14 @@ public class Event {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
     }
 
     public String getLocation() {

@@ -8,7 +8,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.TextView;
 
-public class OnItemClickListenerListViewEvent implements OnItemClickListener {
+public class OnEventClickListener implements OnItemClickListener {
 
     AlertDialog alertDialogStores;
     @Override

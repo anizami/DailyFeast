@@ -39,7 +39,7 @@ public class ArrayAdapterEvent extends ArrayAdapter<Event> {
         // get the TextView and then set the text (event name) and tag (event description) values
         TextView textViewItem = (TextView) convertView.findViewById(R.id.textViewEvent);
         textViewItem.setText(event.getTitle());
-        String formattedTag = "<p>" + event.getLocation() + "</p> <p>" + event.getDescription() + "</p>";
+        String formattedTag = "<p>" + event.getTime() + "</p> <p>" + event.getLocation() + "</p> <p>" + event.getDescription() + "</p>";
         textViewItem.setTag(Html.fromHtml(formattedTag));
 
         return convertView;
