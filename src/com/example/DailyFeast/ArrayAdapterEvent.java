@@ -1,8 +1,5 @@
 package com.example.DailyFeast;
 
-/**
- * Created by fabiolagutierrez on 3/3/14.
- */
 import android.app.Activity;
 import android.content.Context;
 import android.text.Html;
@@ -39,7 +36,7 @@ public class ArrayAdapterEvent extends ArrayAdapter<Event> {
         }
         // object event based on the position
         Event event = data.get(position);
-        // get the TextView and then set the text (event name) and tag (event descriptionD) values
+        // get the TextView and then set the text (event name) and tag (event description) values
         TextView textViewItem = (TextView) convertView.findViewById(R.id.textViewEvent);
         textViewItem.setText(event.getTitle());
         String formattedTag = "<p>" + event.getLocation() + "</p> <p>" + event.getDescription() + "</p>";

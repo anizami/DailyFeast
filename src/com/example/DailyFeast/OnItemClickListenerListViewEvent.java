@@ -2,13 +2,11 @@ package com.example.DailyFeast;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.TextView;
-import android.content.DialogInterface;
-
-import java.io.PipedReader;
 
 public class OnItemClickListenerListViewEvent implements OnItemClickListener {
 

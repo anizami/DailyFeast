@@ -1,8 +1,5 @@
 package com.example.DailyFeast;
 
-/**
- * Created by fabiolagutierrez on 3/3/14.
- */
 public class Event {
     private String title;
     private String location;

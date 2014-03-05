@@ -8,7 +8,6 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 
-
 public class MyActivity extends Activity{
 
 

@@ -2,15 +2,12 @@ package com.example.DailyFeast;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.os.Bundle;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 
 public class Piper extends Activity {
-
-    AlertDialog alertDialogStores;
 
     //arrayList to hold events extracted from Daily Piper
     ArrayList<Event> eventsArray = new ArrayList <Event>();
