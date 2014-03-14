@@ -1,57 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_centerInParent="true">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
 
     <LinearLayout
               android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent" >
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="30dp">>
+        <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="30dp">
+
+            <Button
+                    android:id="@+id/buttonStart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="See Today's Menu"
+                    android:textSize="26sp" />
+
+            <Button
+                android:id="@+id/buttonSettings"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:textSize="26sp"/>
+
+            <Button
+                android:id="@+id/buttonConnect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Connect to Database"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
 
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="The Daily Feast - Free Food Events at Macalester College"
-            android:padding="10dp"
-            android:textColor="#FFFFFF"
-            android:textSize="26sp"/>
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="The Daily Feast"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:textSize="40sp"/>
 
-    </LinearLayout>
-
-    <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:gravity="center"
-            android:layout_alignParentBottom="true">
-
-    <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="6dip"
-            android:src="@drawable/dailypiperguy"
-            android:scaleType="centerInside"/>
-    </LinearLayout>
-
-    <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp"
-            android:gravity="center_horizontal"
-            android:layout_alignParentBottom="true">
-
-        <Button
-            android:id="@+id/buttonStart"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="See Today's Menu"
-            android:layout_gravity="center_horizontal"
-            android:textSize="26sp"
-            />
-    </LinearLayout>
 
 </RelativeLayout>

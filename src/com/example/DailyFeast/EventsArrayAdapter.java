@@ -9,16 +9,17 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
- import java.util.ArrayList;
+import java.util.List;
 
-public class ArrayAdapterEvent extends ArrayAdapter<Event> {
+
+public class EventsArrayAdapter extends ArrayAdapter<Event> {
 
     Context mContext;
     int layoutResourceId;
 
-    ArrayList<Event> data = null;
+    List<Event> data = null;
 
-    public ArrayAdapterEvent(Context mContext, int layoutResourceId, ArrayList data) {
+    public EventsArrayAdapter(Context mContext, int layoutResourceId, List<Event> data) {
 
         super(mContext, layoutResourceId, data);
 
@@ -39,8 +40,9 @@ public class ArrayAdapterEvent extends ArrayAdapter<Event> {
         // get the TextView and then set the text (event name) and tag (event description) values
         TextView textViewItem = (TextView) convertView.findViewById(R.id.textViewEvent);
         textViewItem.setText(event.getTitle());
-        String formattedTag = "<p>" + event.getTime() + "</p> <p>" + event.getLocation() + "</p> <p>" + event.getDescription() + "</p>";
-        textViewItem.setTag(Html.fromHtml(formattedTag));
+        textViewItem.setTag(event);
+        //String formattedTag = "<p>" + event.getTime() + "</p> <p>" + event.getLocation() + "</p> <p>" + event.getDescription() + "</p>";
+        //textViewItem.setTag(Html.fromHtml(formattedTag));
 
         return convertView;
     }
