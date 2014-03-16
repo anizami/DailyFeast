@@ -32,7 +32,7 @@ public class DatabaseConnectionActivity extends Activity {
                 e.printStackTrace();
                 retval = e.toString();
             }
-            String url = "jdbc:postgresql://10.0.2.2/dbname?user=username&password=pass";
+            String url = "jdbc:postgresql://10.0.2.2:4567";
             Connection conn;
             try {
                 DriverManager.setLoginTimeout(5);

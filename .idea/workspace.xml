@@ -16,23 +16,8 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fed879-c58f-49ab-b33c-c8e3cefaacce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/DailyFeast/DatabaseConnectionActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/DailyFeast/SettingsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/DailyFeast/SpecificEventActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/DailyFeast/TodaysEventsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_9_3_1101_jdbc3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/specificevent.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/layout/list_view_row_event.xml" afterPath="$PROJECT_DIR$/res/layout/list_view_event_row.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/DailyFeast/ArrayAdapterEvent.java" afterPath="$PROJECT_DIR$/src/com/example/DailyFeast/EventsArrayAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/DailyFeast/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/DailyFeast/StartUpActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DailyFeast.iml" afterPath="$PROJECT_DIR$/DailyFeast.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/DailyFeast/OnEventClickListener.java" afterPath="$PROJECT_DIR$/src/com/example/DailyFeast/OnEventClickListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/DailyFeast/Piper.java" afterPath="$PROJECT_DIR$/src/com/example/DailyFeast/Piper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/startup.xml" afterPath="$PROJECT_DIR$/res/layout/startup.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+    <list default="true" id="40fed879-c58f-49ab-b33c-c8e3cefaacce" name="Default" comment="Added DatabaseConnectionActivity to test out how to connect to postgresql database. Also changed pop-ups.&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/DailyFeast/DatabaseConnectionActivity.java" afterPath="$PROJECT_DIR$/src/com/example/DailyFeast/DatabaseConnectionActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DailyFeast.iws" />
@@ -100,7 +85,7 @@
       <file leaf-file-name="SpecificEventActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/SpecificEventActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="42" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+            <state line="25" column="42" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -109,21 +94,12 @@
       <file leaf-file-name="specificevent.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/specificevent.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="44" selection-start="803" selection-end="848" vertical-scroll-proportion="1.5961539" vertical-offset="383" max-vertical-offset="795">
+            <state line="20" column="44" selection-start="803" selection-end="848" vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartUpActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/StartUpActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="41" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="900">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -166,10 +142,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Piper.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Piper.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/Piper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="117" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="420">
+            <state line="19" column="117" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.49825174" vertical-offset="0" max-vertical-offset="572">
               <folding />
             </state>
           </provider>
@@ -184,10 +160,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseConnectionActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DatabaseConnectionActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/DatabaseConnectionActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="27" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.7050562" vertical-offset="304" max-vertical-offset="930">
+            <state line="38" column="56" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1065">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventsArrayAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/EventsArrayAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="5" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -229,20 +214,19 @@
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/example/DailyFeast/EventsArrayAdapter.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/DailyFeast/DatabaseConnectionActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/DailyFeast/TodaysEventsActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/specificevent.xml" />
         <option value="$PROJECT_DIR$/res/layout/startup.xml" />
         <option value="$PROJECT_DIR$/src/com/example/DailyFeast/SpecificEventActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/DailyFeast/StartUpActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/DailyFeast/DatabaseConnectionActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="21" />
-    <option name="y" value="29" />
-    <option name="width" value="1255" />
-    <option name="height" value="719" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -272,6 +256,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -459,7 +444,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -768,7 +752,8 @@
       <workItem from="1394686484655" duration="4215000" />
       <workItem from="1394734610714" duration="5956000" />
       <workItem from="1394747873527" duration="2341000" />
-      <workItem from="1394753657483" duration="1253000" />
+      <workItem from="1394753657483" duration="4895000" />
+      <workItem from="1395007445130" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="I made no change">
       <created>1393206123064</created>
@@ -794,11 +779,15 @@
       <created>1394041735389</created>
       <updated>1394041735389</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added DatabaseConnectionActivity to test out how to connect to postgresql database. Also changed pop-ups. &#10;">
+      <created>1394759873884</created>
+      <updated>1394759873884</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103842000" />
+    <option name="totallyTimeSpent" value="107517000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -821,13 +810,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="29" width="1255" height="719" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1280" height="726" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34533897" sideWeight="0.4995141" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0047808765" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3131313" sideWeight="0.49953315" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -839,32 +827,33 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.4995141" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3041788" sideWeight="0.50157726" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37384614" sideWeight="0.49921876" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37384614" sideWeight="0.49921876" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34533897" sideWeight="0.4995141" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2438247" sideWeight="0.49902913" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23828755" sideWeight="0.49902913" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3723077" sideWeight="0.4995141" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3246951" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0047808765" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34533897" sideWeight="0.4995141" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2058433" sideWeight="0.50078124" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2058433" sideWeight="0.50078124" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.4995141" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3041788" sideWeight="0.50157726" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.4995141" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34533897" sideWeight="0.4995141" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2438247" sideWeight="0.49902913" order="0" side_tool="false" content_ui="combo" />
@@ -883,8 +872,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276923" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20769231" sideWeight="0.49921876" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -904,7 +893,8 @@
     <MESSAGE value="I made an Event class and changed it so that the specific event information is presented in a pop-up.&#10;" />
     <MESSAGE value="Changed strings.xml" />
     <MESSAGE value="Changed event class to include time.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed event class to include time.&#10;" />
+    <MESSAGE value="Added DatabaseConnectionActivity to test out how to connect to postgresql database. Also changed pop-ups. &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added DatabaseConnectionActivity to test out how to connect to postgresql database. Also changed pop-ups. &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -925,7 +915,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="137" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="855">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -940,9 +930,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/EventsArrayAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="27" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="825">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,7 +1006,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="31" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="885">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1038,9 +1026,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/EventsArrayAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="47" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="855">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,9 +1121,7 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/android-sdk-macosx/sources/android-19/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="884" column="19" selection-start="40861" selection-end="40861" vertical-scroll-proportion="0.3327645" vertical-offset="11565" max-vertical-offset="80100">
-          <folding />
-        </state>
+        <state line="884" column="19" selection-start="40861" selection-end="40861" vertical-scroll-proportion="0.3327645" vertical-offset="11565" max-vertical-offset="80100" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/Event.java">
@@ -1213,23 +1197,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="67" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="690">
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/Piper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="117" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/EventsArrayAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1241,16 +1209,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/TodaysEventsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="46" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/specificevent.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="44" selection-start="803" selection-end="848" vertical-scroll-proportion="1.5961539" vertical-offset="383" max-vertical-offset="795">
+        <state line="20" column="44" selection-start="803" selection-end="848" vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
@@ -1291,7 +1252,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/DatabaseConnectionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="27" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.7050562" vertical-offset="304" max-vertical-offset="930">
+        <state line="38" column="56" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/EventsArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="5" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/TodaysEventsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="46" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/DailyFeast/Piper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="117" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.49825174" vertical-offset="0" max-vertical-offset="572">
           <folding />
         </state>
       </provider>
