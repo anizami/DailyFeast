@@ -25,6 +25,9 @@ public class StartUpActivity extends Activity{
                 case R.id.buttonConnect:
                     gotoDatabase();
                     break;
+                case R.id.buttonEventsfromServer:
+                    getEvents();
+                    break;
             }
         }
     };
@@ -40,12 +43,21 @@ public class StartUpActivity extends Activity{
         buttonSettings.setOnClickListener(startListener);
         Button buttonConnect = (Button)findViewById(R.id.buttonConnect);
         buttonConnect.setOnClickListener(startListener);
+        Button buttonEventsfromServer = (Button)findViewById(R.id.buttonEventsfromServer);
+        buttonEventsfromServer.setOnClickListener(startListener);
 
     }
+
 
     /** Called when the user clicks the startButton */
     public void gotoTodaysEvents() {
         Intent intent = new Intent(this, TodaysEventsActivity.class);
+        startActivity(intent);
+    }
+
+    /** Called when the user clicks the "get Events from Server" button */
+    public void getEvents() {
+        Intent intent = new Intent(this, GetPiperEvents.class);
         startActivity(intent);
     }
 

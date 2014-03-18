@@ -42,5 +42,13 @@
                 android:value=".StartUpActivity"/>
     </activity>
 
+    <activity android:name=".GetPiperEvents"
+              android:label="Get Events from Daily Piper"
+              android:parentActivityName=".StartUpActivity">
+        <meta_data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".StartUpActivity"/>
+    </activity>
+
 </application>
 </manifest>

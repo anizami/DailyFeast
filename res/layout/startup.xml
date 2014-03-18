@@ -37,6 +37,13 @@
                 android:text="Connect to Database"
                 android:textSize="20sp" />
 
+            <Button
+                    android:id="@+id/buttonEventsfromServer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Get Piper Events from server"
+                    android:textSize="20sp" />
+
         </LinearLayout>
     </LinearLayout>
 
