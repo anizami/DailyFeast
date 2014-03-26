@@ -1,7 +1,5 @@
 package com.example.DailyFeast;
 
-import android.app.Activity;
-
 /**
  * Created by Asra Nizami on 3/18/14.
  */
@@ -76,7 +74,7 @@ public class GetPiperEvents extends ListActivity {
             // getting JSON string from URL
             JSONObject json = serverConnector.makeHttpRequest(urlGetEvents, "GET", params);
 
-            // Check your log cat for JSON reponse
+            // Check your log cat for JSON response
             Log.d("All Events: ", json.toString());
             // Create an iterator that goes through the json object
             // and then adds all the event strings to the map
@@ -100,7 +98,7 @@ public class GetPiperEvents extends ListActivity {
          * After completing background task Dismiss the progress dialog
          * **/
         protected void onPostExecute(String file_url) {
-            // dismiss the dialog after getting all products
+            // dismiss the dialog after getting all events
             pDialog.dismiss();
             // updating UI from Background Thread
             runOnUiThread(new Runnable() {

@@ -22,9 +22,6 @@ public class StartUpActivity extends Activity{
                 case R.id.buttonSettings:
                     gotoSettings();
                     break;
-                case R.id.buttonConnect:
-                    gotoDatabase();
-                    break;
                 case R.id.buttonEventsfromServer:
                     getEvents();
                     break;
@@ -41,8 +38,6 @@ public class StartUpActivity extends Activity{
         buttonStart.setOnClickListener(startListener);
         Button buttonSettings = (Button)findViewById(R.id.buttonSettings);
         buttonSettings.setOnClickListener(startListener);
-        Button buttonConnect = (Button)findViewById(R.id.buttonConnect);
-        buttonConnect.setOnClickListener(startListener);
         Button buttonEventsfromServer = (Button)findViewById(R.id.buttonEventsfromServer);
         buttonEventsfromServer.setOnClickListener(startListener);
 
@@ -67,8 +62,4 @@ public class StartUpActivity extends Activity{
         startActivity(intent);
     }
 
-    public void gotoDatabase(){
-        Intent intent = new Intent(this, DatabaseConnectionActivity.class);
-        startActivity(intent);
-    }
 }
