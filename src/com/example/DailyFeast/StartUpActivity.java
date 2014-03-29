@@ -25,6 +25,10 @@ public class StartUpActivity extends Activity{
                 case R.id.buttonEventsfromServer:
                     getEvents();
                     break;
+
+                case R.id.buttonCreateEvents:
+                    createEvents();
+                    break;
             }
         }
     };
@@ -59,6 +63,11 @@ public class StartUpActivity extends Activity{
     /** Called when the user clicks the settingsButton */
     public void gotoSettings() {
         Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
+    }
+
+    public void createEvents () {
+        Intent intent = new Intent(this, CreateNewEventActivity.class);
         startActivity(intent);
     }
 

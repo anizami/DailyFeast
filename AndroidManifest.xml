@@ -45,6 +45,13 @@
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".StartUpActivity"/>
         </activity>
+        <activity android:name=".CreateNewEventActivity"
+                  android:label = "Create a new event"
+                  android:parentActivityName=".StartUpActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".StartUpActivity"/>
+        </activity>
     </application>
 
     <uses-permission android:name ="android.permission.INTERNET" />

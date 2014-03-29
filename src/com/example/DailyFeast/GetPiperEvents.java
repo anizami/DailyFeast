@@ -28,8 +28,8 @@ public class GetPiperEvents extends ListActivity {
 
     ArrayList<String> eventsList;
 
-    // url to get all products list
-    private static String urlGetEvents = "http://10.0.2.2:4567/";
+    // url to get all events list
+    private static String urlGetEvents = "http://lit-savannah-2620.herokuapp.com/getPiper";
 
 
 
