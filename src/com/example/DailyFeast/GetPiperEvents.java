@@ -14,6 +14,7 @@ import android.widget.*;
 import org.apache.http.NameValuePair;
 import org.json.JSONException;
 import org.json.JSONObject;
+import com.google.gson.Gson;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -29,7 +30,7 @@ public class GetPiperEvents extends ListActivity {
     ArrayList<String> eventsList;
 
     // url to get all events list
-    private static String urlGetEvents = "http://lit-savannah-2620.herokuapp.com/getPiper";
+    private static String urlGetEvents = "http://10.0.2.2:5000/getPiper";
 
 
 
@@ -66,7 +67,7 @@ public class GetPiperEvents extends ListActivity {
         }
 
         /**
-         * getting All events from url
+         * getting all events from url
          * */
         protected String doInBackground(String... args) {
             // Building Parameters
@@ -84,6 +85,7 @@ public class GetPiperEvents extends ListActivity {
                 String val = "";
                 try {
                     val = json.get(key).toString();
+
                 }
                 catch (JSONException e){
                     val = "No event found";
@@ -118,8 +120,6 @@ public class GetPiperEvents extends ListActivity {
         }
 
     }
-
-
 
 
 }
