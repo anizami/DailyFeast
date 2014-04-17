@@ -10,6 +10,7 @@ import android.widget.ListView;
 
 import com.google.gson.*;
 import org.apache.http.NameValuePair;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -32,8 +33,6 @@ public class TodaysEventsActivity extends Activity {
     // Creating ServerConnector object
     ServerConnector serverConnector = new ServerConnector();
 
-    // public Piper piper = new Piper();
-
     // url to get all events list
     private static String urlGetEvents = "http://10.0.2.2:5000/getPiper";
 
@@ -45,12 +44,8 @@ public class TodaysEventsActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.todaysevents);
 
-        //piper = new Piper();
-
-
         // Loading products in Background Thread
         new LoadAllEvents().execute();
-
 
     }
 
@@ -58,7 +53,7 @@ public class TodaysEventsActivity extends Activity {
      * Background Async Task to Load all product by making HTTP Request
      */
     //                         AsyncTask<Params, Progress, Result>
-    class LoadAllEvents extends AsyncTask<String, String, String> {
+    class LoadAllEvents extends AsyncTask<String, Void, String> {
 
         /**
          * Before starting background thread Show Progress Dialog
@@ -81,15 +76,10 @@ public class TodaysEventsActivity extends Activity {
             // Building Parameters
             List<NameValuePair> params = new ArrayList<NameValuePair>();
             // getting   JSON object from URL
-            JSONObject json =  serverConnector.makeHttpRequest(urlGetEvents, "GET", params);
-            String jsonString = json.toString();
+            JSONArray jArray =  serverConnector.makeHttpRequest(urlGetEvents, "GET", params);
+            String jsonString = jArray.toString();
             // Check your log cat for JSON response
             Log.d("All Events: ", jsonString);
-            Event testEvent = new Event();
-            testEvent.setLocation("");
-            testEvent.setTime("");
-            testEvent.setDescription("No event found");
-            testEvent.setTitle("Parsing error");
 
             try{
                 //create a jsonElement (com.google.gson) using the jsonString (we do that so it's easy to get it as an array that we can iterate
@@ -101,33 +91,14 @@ public class TodaysEventsActivity extends Activity {
                 Iterator iterator = jsonArray.iterator();
                 while(iterator.hasNext()){
                     JsonElement jsonEvent = (JsonElement)iterator.next();
-                    try {
-                        JsonObject jsonEvent2 = jsonEvent.getAsJsonObject();
-                        String title = jsonEvent2.get("title").getAsString();
-                        String location = jsonEvent2.get("location").getAsString();
-                        String description = jsonEvent2.get("description").getAsString();
-                        String time = jsonEvent2.get("time").getAsString();
-                        Event newEvent = new Event();
-                        newEvent.setDescription(description);
-                        newEvent.setTime(time);
-                        newEvent.setLocation(location);
-                        newEvent.setTitle(title);
-                        eventsArray.add(newEvent);
-                    }
-
-                    catch (Exception e){
-                        eventsArray.add(testEvent);
-                    }
-
-                    //                Event event = new Gson().fromJson(jsonEvent, Event.class);
-                    //               eventsArray.add(event);
-                    System.out.println("Adding event to list");
+                    Event event = new Gson().fromJson(jsonEvent, Event.class);
+                    eventsArray.add(event);
 
                 }
             } catch (JsonParseException e){
-                eventsArray.add(testEvent);
+                eventsArray.add(new Event());
             } catch (IllegalStateException e){
-                eventsArray.add(testEvent);
+                eventsArray.add(new Event());
             }
             return null;
         }

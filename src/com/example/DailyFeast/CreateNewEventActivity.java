@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -37,7 +38,7 @@ public class CreateNewEventActivity extends Activity {
     private static String url_create_event = "http://localhost/android_connect/create_product.php";
 
     // JSON Node names
-    private static final String TAG_SUCCESS = "success";
+    private static final Integer TAG_SUCCESS = 1;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -100,15 +101,15 @@ public class CreateNewEventActivity extends Activity {
 
             // getting JSON Object
             // Note that create product url accepts POST method
-            JSONObject json = serverConnector.makeHttpRequest(url_create_event,
+            JSONArray jArray = serverConnector.makeHttpRequest(url_create_event,
                     "POST", params);
 
             // check log cat fro response
-            Log.d("Create Response", json.toString());
+            Log.d("Create Response", jArray.toString());
 
             // check for success tag
             try {
-                int success = json.getInt(TAG_SUCCESS);
+                int success = jArray.getInt(TAG_SUCCESS);
 
                 if (success == 1) {
                     // successfully created product

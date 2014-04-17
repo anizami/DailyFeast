@@ -20,6 +20,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.utils.URLEncodedUtils;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import android.util.Log;
@@ -27,7 +28,7 @@ import android.util.Log;
 public class ServerConnector {
 
     static InputStream is = null;
-    static JSONObject jObj = null;
+    static JSONArray jArray = null;
     static String json = "";
 
     // constructor
@@ -37,8 +38,8 @@ public class ServerConnector {
 
     // function get json from url
     // by making HTTP POST or GET method
-    public JSONObject makeHttpRequest(String url, String method,
-                                      List<NameValuePair> params) {
+    public JSONArray makeHttpRequest(String url, String method,
+                                     List<NameValuePair> params) {
 
         // Making HTTP request
         try {
@@ -92,13 +93,15 @@ public class ServerConnector {
 
         // try parse the string to a JSON object
         try {
-            jObj = new JSONObject(json);
-        } catch (JSONException e) {
+            Log.e("JSON PARSER", json);
+            jArray = new JSONArray(json);
+        } catch (Exception e) {
+            Log.e("JSON Parser", "Error parsing date" + e.getCause());
             Log.e("JSON Parser", "Error parsing data " + e.toString());
         }
 
         // return JSON String
-        return jObj;
+        return jArray;
 
     }
 }
