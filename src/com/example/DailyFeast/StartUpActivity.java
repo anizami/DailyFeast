@@ -38,6 +38,8 @@ public class StartUpActivity extends Activity{
         buttonStart.setOnClickListener(startListener);
         Button buttonSettings = (Button)findViewById(R.id.buttonSettings);
         buttonSettings.setOnClickListener(startListener);
+        Button buttonCreateEvents = (Button)findViewById(R.id.buttonCreateEvents);
+        buttonCreateEvents.setOnClickListener(startListener);
 
     }
 

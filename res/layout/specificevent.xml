@@ -41,7 +41,8 @@
                 android:id="@+id/EventDescription"
                 android:layout_gravity="center_horizontal"
                 android:textAppearance="?android:attr/textAppearanceListItemSmall"
-                android:padding="15dp" android:layout_weight="1.0"/>
+                android:padding="15dp"
+                android:layout_weight="1.0"/>
     </LinearLayout>
 </ScrollView>
 

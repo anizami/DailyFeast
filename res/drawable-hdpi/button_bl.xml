@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is code that I created by looking at code from Matt Quigley at:
+    http://www.androidengineer.com/2010/06/using-themes-in-android-applications.html -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"
+          android:drawable="@drawable/button_wh_pressed" />
+    
+    <item android:state_focused="true"
+          android:drawable="@drawable/button_wh_selected" />
+
+    <item android:drawable="@drawable/button_bl_normal" />
+
+</selector>

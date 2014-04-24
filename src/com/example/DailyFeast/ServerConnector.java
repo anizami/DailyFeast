@@ -87,11 +87,14 @@ public class ServerConnector {
             }
             is.close();
             json = sb.toString();
+            if (method=="POST"){
+                json = "[" + json + "]";
+            }
         } catch (Exception e) {
             Log.e("Buffer Error", "Error converting result " + e.toString());
         }
 
-        // try parse the string to a JSON object
+        // try to parse the string to a JSON object
         try {
             Log.e("JSON PARSER", json);
             jArray = new JSONArray(json);

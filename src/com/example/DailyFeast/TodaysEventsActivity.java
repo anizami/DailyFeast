@@ -110,6 +110,7 @@ public class TodaysEventsActivity extends Activity {
          */
         protected void onPostExecute(String result) {
             // dismiss the dialog after getting all events
+            pDialog.setMessage("Success!");
             pDialog.dismiss();
             // updating UI from Background Thread
             runOnUiThread(new Runnable() {

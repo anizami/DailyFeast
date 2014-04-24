@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- This is code that I created by looking at code from Matt Quigley at:
+http://www.androidengineer.com/2010/06/using-themes-in-android-applications.html -->
+<shape
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle">
+
+	<gradient
+		android:startColor="#EF8300"
+		android:centerColor="#F09321"
+		android:endColor="#F09D38"
+		android:angle="90"/>
+
+	<stroke
+		android:width="1dp"
+		android:color="#A0000000"/>
+
+	<padding
+		android:top="8dp"
+		android:bottom="8dp"
+		android:left="5dp"
+		android:right="5dp"/>
+
+	<corners
+		android:radius="5dp"/>
+
+</shape>

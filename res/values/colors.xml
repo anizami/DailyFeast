@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="transparent_blue">#80004488</color>
+    <color name="OrangeShadow">#FFECBE</color>
+    <color name="BlueText">#0022CE</color>
+    <color name="DarkOrangeShadow">#FF9A00</color>
+
+</resources>

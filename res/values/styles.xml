@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- To comment out items use this method -->
+
+    <!-- This is code that I created by looking at code from Matt Quigley at:
+    http://www.androidengineer.com/2010/06/using-themes-in-android-applications.html -->
+
+    <!-- The theme I came up with so far -->
+
+    <style name="button_bl">
+        <item name="android:background">@drawable/button_bl</item>-->
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">3sp</item>
+        <item name="android:paddingTop">11sp</item>
+        <item name="android:paddingBottom">11sp</item>
+    </style>
+
+    <style name="MasonFinalTheme" parent="@android:style/Theme">
+        <item name="android:background">#FFF6E1</item>
+        <item name="android:textColor">@color/BlueText</item>
+        <item name="android:shadowColor">@color/OrangeShadow</item>
+        <item name="android:paddingLeft">5sp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+
+
+</resources>

@@ -14,28 +14,37 @@
                    android:orientation="vertical"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
-                   android:padding="30dp">
+                   android:padding="45dp">
 
             <Button
                     android:id="@+id/buttonStart"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:text="See Today's Menu"
-                    android:textSize="26sp" />
+                    android:textSize="26sp"
+                    android:textColor="@color/BlueText"
+                    android:shadowColor="@color/OrangeShadow"
+                    style="@style/button_bl"/>
 
             <Button
                 android:id="@+id/buttonSettings"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Settings"
-                android:textSize="26sp"/>
+                android:textSize="26sp"
+                android:textColor="@color/BlueText"
+                android:shadowColor="@color/OrangeShadow"
+                style="@style/button_bl"/>
 
             <Button
                     android:id="@+id/buttonCreateEvents"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:text="Create Event"
-                    android:textSize="26sp" />
+                    android:textSize="26sp"
+                    android:textColor="@color/BlueText"
+                    android:shadowColor="@color/OrangeShadow"
+                    style="@style/button_bl"/>
 
         </LinearLayout>
     </LinearLayout>
@@ -45,7 +54,8 @@
                 android:layout_height="wrap_content"
                 android:text="The Daily Feast"
                 android:padding="10dp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/BlueText"
+                android:shadowColor="@color/OrangeShadow"
                 android:gravity="center"
                 android:textSize="40sp"/>
 

@@ -35,10 +35,10 @@ public class CreateNewEventActivity extends Activity {
     EditText inputDescription;
 
     // url to create new product
-    private static String url_create_event = "http://localhost/android_connect/create_product.php";
+    private static String url_create_event = "http://10.0.2.2:5000/addEvent";
 
     // JSON Node names
-    private static final Integer TAG_SUCCESS = 1;
+    private static Boolean success = true;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -77,7 +77,7 @@ public class CreateNewEventActivity extends Activity {
         protected void onPreExecute() {
             super.onPreExecute();
             pDialog = new ProgressDialog(CreateNewEventActivity.this);
-            pDialog.setMessage("Creating Product..");
+            pDialog.setMessage("Creating Event...");
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(true);
             pDialog.show();
@@ -109,9 +109,9 @@ public class CreateNewEventActivity extends Activity {
 
             // check for success tag
             try {
-                int success = jArray.getInt(TAG_SUCCESS);
+                Boolean success2 = jArray.getBoolean(1);
 
-                if (success == 1) {
+                if (success2 == true) {
                     // successfully created product
                     Intent i = new Intent(getApplicationContext(), TodaysEventsActivity.class);
                     startActivity(i);
