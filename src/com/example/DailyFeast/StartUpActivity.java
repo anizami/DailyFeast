@@ -19,9 +19,7 @@ public class StartUpActivity extends Activity{
                 case R.id.buttonStart:
                     gotoTodaysEvents();
                     break;
-                case R.id.buttonSettings:
-                    gotoSettings();
-                    break;
+
                 case R.id.buttonCreateEvents:
                     createEvents();
                     break;
@@ -36,8 +34,7 @@ public class StartUpActivity extends Activity{
 
         Button buttonStart = (Button)findViewById(R.id.buttonStart);
         buttonStart.setOnClickListener(startListener);
-        Button buttonSettings = (Button)findViewById(R.id.buttonSettings);
-        buttonSettings.setOnClickListener(startListener);
+
         Button buttonCreateEvents = (Button)findViewById(R.id.buttonCreateEvents);
         buttonCreateEvents.setOnClickListener(startListener);
 
@@ -50,11 +47,6 @@ public class StartUpActivity extends Activity{
         startActivity(intent);
     }
 
-    /** Called when the user clicks the settingsButton */
-    public void gotoSettings() {
-        Intent intent = new Intent(this, SettingsActivity.class);
-        startActivity(intent);
-    }
 
     public void createEvents () {
         Intent intent = new Intent(this, CreateNewEventActivity.class);

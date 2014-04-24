@@ -35,7 +35,7 @@ public class CreateNewEventActivity extends Activity {
     EditText inputDescription;
 
     // url to create new product
-    private static String url_create_event = "http://10.0.2.2:5000/addEvent";
+    private static String url_create_event = "http://dailyfeast.herokuapp.com/addEvent";
 
     // JSON Node names
     private static Boolean success = true;
