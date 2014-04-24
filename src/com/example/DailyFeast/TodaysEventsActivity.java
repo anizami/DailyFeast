@@ -34,7 +34,9 @@ public class TodaysEventsActivity extends Activity {
     ServerConnector serverConnector = new ServerConnector();
 
     // url to get all events list
-    private static String urlGetEvents = "http://10.0.2.2:5000/getPiper";
+    //http://141.140.151.176:5000/getPiper
+//    private static String urlGetEvents = "http://10.0.2.2:5000/getPiper";
+    private static String urlGetEvents = "http://141.140.151.176:5000/getPiper";
 
     //ArrayList<Event> eventsArray = piper.retrieveListOfEvents();
     private ArrayList<Event> eventsArray = new ArrayList <Event>();
