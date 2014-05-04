@@ -1,11 +1,14 @@
 package com.example.DailyFeast;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import java.util.Calendar;
 
 
 
@@ -38,6 +41,30 @@ public class StartUpActivity extends Activity{
         Button buttonCreateEvents = (Button)findViewById(R.id.buttonCreateEvents);
         buttonCreateEvents.setOnClickListener(startListener);
 
+        // The daily piper is not published on the weekend. Check to see if it's the weekend.
+        Calendar calendar = Calendar.getInstance();
+        // Sunday = 1, Saturday = 7, etc.
+        int day = calendar.get(Calendar.DAY_OF_WEEK);
+
+        if (day == 1 || day == 7){
+
+            AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+            alertDialogBuilder.setTitle("WARNING!");
+            alertDialogBuilder.setMessage("The Daily Piper does not publish on the weekends. You can still see and add free food events submitted by your fellow users.");
+            alertDialogBuilder.setCancelable(false);
+            alertDialogBuilder.setNegativeButton("OK", new DialogInterface.OnClickListener(){
+                public void onClick(DialogInterface dialog, int id){
+                    dialog.cancel();
+                }
+            });
+
+            // create alert dialog
+           AlertDialog alertDialog =  alertDialogBuilder.create();
+
+           // show it
+           alertDialog.show();
+
+    }
     }
 
 

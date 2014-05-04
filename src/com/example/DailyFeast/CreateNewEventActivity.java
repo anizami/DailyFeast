@@ -3,6 +3,7 @@ package com.example.DailyFeast;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.os.Handler;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
@@ -124,7 +125,6 @@ public class CreateNewEventActivity extends Activity {
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-
             return null;
         }
 
@@ -132,9 +132,18 @@ public class CreateNewEventActivity extends Activity {
          * After completing background task Dismiss the progress dialog
          * **/
         protected void onPostExecute(String file_url) {
-            // dismiss the dialog once done
-            pDialog.dismiss();
+            pDialog.setMessage("Your event was successfully added!");
+            Handler handler = new Handler();
+            handler.postDelayed(new Runnable() {
+                public void run() {
+                    // dismiss the dialog once done
+                    pDialog.dismiss();
+                }}, 3000);
+            Intent intent = new Intent(getApplicationContext(), TodaysEventsActivity.class);
+            startActivity(intent);
         }
 
+
+
     }
-}
+    }

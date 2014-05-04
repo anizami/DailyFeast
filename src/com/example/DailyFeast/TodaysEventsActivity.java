@@ -18,6 +18,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+
+
+
 @SuppressLint("NewApi")
 
 public class TodaysEventsActivity extends Activity {
@@ -75,6 +78,7 @@ public class TodaysEventsActivity extends Activity {
          * getting all events from url
          */
         protected String doInBackground(String... args) {
+
             // Building Parameters
             List<NameValuePair> params = new ArrayList<NameValuePair>();
             // getting   JSON object from URL
@@ -112,7 +116,6 @@ public class TodaysEventsActivity extends Activity {
          */
         protected void onPostExecute(String result) {
             // dismiss the dialog after getting all events
-            pDialog.setMessage("Success!");
             pDialog.dismiss();
             // updating UI from Background Thread
             runOnUiThread(new Runnable() {
