@@ -5,6 +5,8 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
+import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -49,8 +51,8 @@ public class StartUpActivity extends Activity{
         if (day == 1 || day == 7){
 
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
-            alertDialogBuilder.setTitle("WARNING!");
-            alertDialogBuilder.setMessage("The Daily Piper does not publish on the weekends. You can still see and add free food events submitted by your fellow users.");
+            alertDialogBuilder.setTitle(Html.fromHtml("<font color='#FF7F27'>WARNING!</font>"));
+            alertDialogBuilder.setMessage(Html.fromHtml("<font color='#FF7F27'> The Daily Piper does not publish on the weekends. You can still see and add free food events submitted by your fellow users. </font>"));
             alertDialogBuilder.setCancelable(false);
             alertDialogBuilder.setNegativeButton("OK", new DialogInterface.OnClickListener(){
                 public void onClick(DialogInterface dialog, int id){
