@@ -2,8 +2,11 @@ package com.example.DailyFeast;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.ContextThemeWrapper;
@@ -16,6 +19,8 @@ import java.util.Calendar;
 
 public class StartUpActivity extends Activity{
 
+    // Alert Dialog
+    private AlertDialog.Builder alertDialog;
 
     //Create an anonymous implementation of OnClickListener
     private View.OnClickListener startListener = new OnClickListener() {
@@ -31,6 +36,13 @@ public class StartUpActivity extends Activity{
             }
         }
     };
+
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,25 +60,31 @@ public class StartUpActivity extends Activity{
         // Sunday = 1, Saturday = 7, etc.
         int day = calendar.get(Calendar.DAY_OF_WEEK);
 
+        if (!isNetworkAvailable()) {
+            new AlertDialog.Builder(StartUpActivity.this).setMessage("Please turn on your internet").show();
+        }
+
         if (day == 1 || day == 7){
 
-            AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
-            alertDialogBuilder.setTitle(Html.fromHtml("<font color='#FF7F27'>WARNING!</font>"));
-            alertDialogBuilder.setMessage(Html.fromHtml("<font color='#FF7F27'> The Daily Piper does not publish on the weekends. You can still see and add free food events submitted by your fellow users. </font>"));
-            alertDialogBuilder.setCancelable(false);
-            alertDialogBuilder.setNegativeButton("OK", new DialogInterface.OnClickListener(){
+            alertDialog = new AlertDialog.Builder(this);
+            alertDialog.setTitle("WARNING!");
+            alertDialog.setMessage("The Daily Piper does not publish on the weekends. You can still see and add free food events submitted by your fellow users.");
+            alertDialog.setCancelable(false);
+            alertDialog.setIcon(R.drawable.dailyfeastlogo);
+            alertDialog.setNegativeButton("OK", new DialogInterface.OnClickListener(){
                 public void onClick(DialogInterface dialog, int id){
                     dialog.cancel();
                 }
             });
 
             // create alert dialog
-           AlertDialog alertDialog =  alertDialogBuilder.create();
+            alertDialog.create();
 
-           // show it
-           alertDialog.show();
+            // show it
+            alertDialog.show();
 
-    }
+        }
+
     }
 
 

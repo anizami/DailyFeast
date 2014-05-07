@@ -3,7 +3,10 @@ package com.example.DailyFeast;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Handler;
+import android.text.Html;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
@@ -25,7 +28,8 @@ import android.widget.EditText;
  */
 public class CreateNewEventActivity extends Activity {
 
-
+    // Alert Dialog
+    private AlertDialog alertDialog;
     // Progress Dialog
     private ProgressDialog pDialog;
 
@@ -36,10 +40,11 @@ public class CreateNewEventActivity extends Activity {
     EditText inputDescription;
 
     // url to create new product
-    private static String url_create_event = "http://dailyfeast.herokuapp.com/addEvent";
+    private static String url_create_event = "http://pure-lake-3835.herokuapp.com/addEvent";
+//    private static String url_create_event = "http://dailyfeast.herokuapp.com/addEvent";
 
     // JSON Node names
-    private static Boolean success = true;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -62,14 +67,21 @@ public class CreateNewEventActivity extends Activity {
             public void onClick(View view) {
                 // creating new event in background thread
                 new CreateNewProduct().execute();
+
+
             }
         });
+
+
     }
 
     /**
      * Background Async Task to Create new event
      * */
     class CreateNewProduct extends AsyncTask<String, String, String> {
+
+
+        Boolean success2 = true;
 
         /**
          * Before starting background thread Show Progress Dialog
@@ -82,17 +94,35 @@ public class CreateNewEventActivity extends Activity {
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(true);
             pDialog.show();
+
+            //alertDialog = new AlertDialog.Builder(this);
+
         }
 
         /**
-         * Creating product
+         * Creating event
          * */
         protected String doInBackground(String... args) {
+
+
             String title = inputTitle.getText().toString();
             String time = inputTime.getText().toString();
             String location = inputLocation.getText().toString();
             String description = inputDescription.getText().toString();
 
+/*
+            if (title == null || time == null || location == null){
+                alertDialog = new AlertDialog.Builder(this.getApplicationContext());
+                alertDialog.setTitle("WARNING!");
+                alertDialog.setMessage("Please fill out the title, time, and location fields.");
+                alertDialog.setCancelable(false);
+                alertDialog.setIcon(R.drawable.dailyfeastlogo);
+                alertDialog.setNegativeButton("OK", new DialogInterface.OnClickListener(){
+                    public void onClick(DialogInterface dialog, int id){
+                        dialog.cancel();
+                    }
+
+            }*/
             // Building Parameters
             List<NameValuePair> params = new ArrayList<NameValuePair>();
             params.add(new BasicNameValuePair("title", title));
@@ -101,26 +131,29 @@ public class CreateNewEventActivity extends Activity {
             params.add(new BasicNameValuePair ("description", description));
 
             // getting JSON Object
-            // Note that create product url accepts POST method
+            // Note that create event url accepts POST method
             JSONArray jArray = serverConnector.makeHttpRequest(url_create_event,
                     "POST", params);
 
-            // check log cat fro response
+
+            // check log cat for response
             Log.d("Create Response", jArray.toString());
 
             // check for success tag
             try {
-                Boolean success2 = jArray.getBoolean(1);
+                success2 = jArray.getBoolean(1);
 
                 if (success2 == true) {
-                    // successfully created product
+
+                    // successfully created event
                     Intent i = new Intent(getApplicationContext(), TodaysEventsActivity.class);
                     startActivity(i);
+
 
                     // closing this screen
                     finish();
                 } else {
-                    // failed to create product
+                    // failed to create event
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -131,7 +164,8 @@ public class CreateNewEventActivity extends Activity {
         /**
          * After completing background task Dismiss the progress dialog
          * **/
-        protected void onPostExecute(String file_url) {
+        protected void onPostExecute(String result) {
+            if (success2 == true){
             pDialog.setMessage("Your event was successfully added!");
             Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
@@ -141,9 +175,21 @@ public class CreateNewEventActivity extends Activity {
                 }}, 3000);
             Intent intent = new Intent(getApplicationContext(), TodaysEventsActivity.class);
             startActivity(intent);
-        }
+            }
+           else {
+                //dismiss progress dialog
+                pDialog.setMessage("Unable to create event.");
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    public void run() {
+                        // dismiss the dialog once done
+                        pDialog.dismiss();
+                    }}, 3000);
+
+            }
 
 
 
     }
     }
+}

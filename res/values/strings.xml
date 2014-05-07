@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DailyFeast</string>
-    <string name ="todays_events_name">Today\'s Events</string>
-    <string name="specific_events_name">Event Detail</string>
+    <string name = "app_name"> The Daily Feast</string>
+    <string name = "todays_events_name">Today\'s Events</string>
+    <string name = "specific_events_name">Event Detail</string>
+    <string name = "create_new_event_name"> Create New Event </string>
+    <string name = "menu_button_name"> See Today\'s Menu</string>
+
 </resources>

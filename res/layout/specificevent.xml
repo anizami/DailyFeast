@@ -12,15 +12,31 @@
                   android:layout_width="fill_parent"
                   android:layout_height="wrap_content"
                   android:padding="10dp"
-                  android:gravity="center_horizontal"
-                  android:layout_alignParentTop="true" >
+                  android:gravity="center_horizontal">
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TitleName"
+                android:text="Event Title: "
+                android:textSize="17dip"
+                android:layout_gravity="center_horizontal"/>
 
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/EventTitle"
                 android:layout_gravity="center_horizontal"
-                android:textAppearance="@android:style/TextAppearance.Medium"/>
+                android:padding="15dp"
+                android:textAppearance="@android:style/TextAppearance.Small"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TimeName"
+                android:text="Event Time: "
+                android:textSize="17dip"
+                android:layout_gravity="center_horizontal"/>
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -31,10 +47,26 @@
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/LocationName"
+                android:text="Event Location: "
+                android:textSize="17dip"
+                android:layout_gravity="center_horizontal"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/EventLocation"
                 android:layout_gravity="center_horizontal"
                 android:textAppearance="?android:attr/textAppearanceListItemSmall"
                 android:padding="15dp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/DescriptionName"
+                android:text="Event Description: "
+                android:textSize="17dip"
+                android:layout_gravity="center_horizontal"/>
+
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

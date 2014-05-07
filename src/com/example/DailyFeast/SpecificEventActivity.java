@@ -31,6 +31,7 @@ public class SpecificEventActivity extends Activity {
         String eventTime= intent.getStringExtra(TodaysEventsActivity.EXTRA_TIME);
 
         //Get the textView EventTitle
+
         TextView tvTitle = (TextView) findViewById(R.id.EventTitle);
         tvTitle.setText(eventTitle);
         //Get the textView EventLocation
