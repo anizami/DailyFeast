@@ -1,4 +1,4 @@
-package com.example.DailyFeast;
+package com.macalester.DailyFeast;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -11,8 +11,6 @@ import android.widget.ListView;
 import com.google.gson.*;
 import org.apache.http.NameValuePair;
 import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -25,10 +23,10 @@ import java.util.List;
 
 public class TodaysEventsActivity extends Activity {
 
-    public final static String EXTRA_TITLE = "com.example.DailyFeast.TITLE";
-    public final static String EXTRA_TIME = "com.example.DailyFeast.TIME";
-    public final static String EXTRA_LOCATION = "com.example.DailyFeast.LOCATION";
-    public final static String EXTRA_DESCRIPTION = "com.example.DailyFeast.DESCRIPTION";
+    public final static String EXTRA_TITLE = "com.macalester.DailyFeast.TITLE";
+    public final static String EXTRA_TIME = "com.macalester.DailyFeast.TIME";
+    public final static String EXTRA_LOCATION = "com.macalester.DailyFeast.LOCATION";
+    public final static String EXTRA_DESCRIPTION = "com.macalester.DailyFeast.DESCRIPTION";
 
     // Progress Dialog
     private ProgressDialog pDialog;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.DailyFeast"
+          package="com.macalester.DailyFeast"
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="12"/>
@@ -12,7 +12,7 @@
             android:theme="@style/MasonFinalTheme">
 
 
-        <activity android:name=".StartUpActivity"
+        <activity android:name="com.macalester.DailyFeast.StartUpActivity"
                   android:label="Daily Feast">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -20,24 +20,24 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".TodaysEventsActivity"
+        <activity android:name="com.macalester.DailyFeast.TodaysEventsActivity"
                   android:label="@string/todays_events_name"
-                  android:parentActivityName=".StartUpActivity" >
+                  android:parentActivityName="com.macalester.DailyFeast.StartUpActivity" >
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".StartUpActivity"/>
         </activity>
-        <activity android:name=".SpecificEventActivity"
+        <activity android:name="com.macalester.DailyFeast.SpecificEventActivity"
                   android:label="@string/specific_events_name"
-                  android:parentActivityName=".TodaysEventsActivity">
+                  android:parentActivityName="com.macalester.DailyFeast.TodaysEventsActivity">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".TodaysEventsActivity"/>
         </activity>
 
-        <activity android:name=".CreateNewEventActivity"
+        <activity android:name="com.macalester.DailyFeast.CreateNewEventActivity"
                   android:label = "@string/create_new_event_name"
-                  android:parentActivityName=".StartUpActivity">
+                  android:parentActivityName="com.macalester.DailyFeast.StartUpActivity">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".StartUpActivity"/>

@@ -1,4 +1,4 @@
-package com.example.DailyFeast;
+package com.macalester.DailyFeast;
 
 import java.sql.Time;
 

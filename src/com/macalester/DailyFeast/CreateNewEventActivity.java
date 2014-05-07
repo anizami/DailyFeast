@@ -1,4 +1,4 @@
-package com.example.DailyFeast;
+package com.macalester.DailyFeast;
 
 import java.util.ArrayList;
 import java.util.List;

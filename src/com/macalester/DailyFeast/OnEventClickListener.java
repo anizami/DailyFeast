@@ -1,4 +1,4 @@
-package com.example.DailyFeast;
+package com.macalester.DailyFeast;
 
 /**
  * Created by fabiolagutierrez on 2/27/14.
