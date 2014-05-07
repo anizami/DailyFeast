@@ -72,7 +72,6 @@ public class CreateNewEventActivity extends Activity {
 
                 if (title.equals("")  || time.equals("")  || location.equals("")){
                     alertDialog = new AlertDialog.Builder(new ContextThemeWrapper(CreateNewEventActivity.this, R.style.AlertDialogCustom));
-                    alertDialog.setTitle("WARNING!");
                     alertDialog.setMessage("Please fill out the title, time, and location fields.");
                     alertDialog.setCancelable(false);
                     alertDialog.setIcon(R.drawable.dailyfeastlogo);

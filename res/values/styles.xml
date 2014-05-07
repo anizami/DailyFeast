@@ -20,11 +20,10 @@
         <item name="android:background">#FFF6E1</item>
         <item name="android:textColor">@color/BlueText</item>
         <item name="android:shadowColor">@color/OrangeShadow</item>
-        <item name="android:paddingLeft">5sp</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:shadowDy">1.0</item>
-        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowRadius">0.5</item>
     </style>
 
     <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">

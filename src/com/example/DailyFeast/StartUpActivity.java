@@ -64,10 +64,9 @@ public class StartUpActivity extends Activity{
             new AlertDialog.Builder(new ContextThemeWrapper(StartUpActivity.this, R.style.AlertDialogCustom)).setMessage("Please turn on your internet").show();
         }
 
-        if (day == 3 || day == 7){
+        if (day == 1 || day == 7){
 
             alertDialog = new AlertDialog.Builder(new ContextThemeWrapper(this, R.style.AlertDialogCustom));
-            alertDialog.setTitle("WARNING!");
             alertDialog.setMessage("The Daily Piper does not publish on the weekends. You can still see and add free food events submitted by your fellow users.");
             alertDialog.setCancelable(false);
             alertDialog.setIcon(R.drawable.dailyfeastlogo);
