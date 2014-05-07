@@ -11,6 +11,7 @@
             android:debuggable="true"
             android:theme="@style/MasonFinalTheme">
 
+
         <activity android:name=".StartUpActivity"
                   android:label="Daily Feast">
             <intent-filter>

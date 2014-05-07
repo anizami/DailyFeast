@@ -6,6 +6,7 @@ import java.util.List;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Handler;
+import android.view.ContextThemeWrapper;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
@@ -70,7 +71,7 @@ public class CreateNewEventActivity extends Activity {
 
 
                 if (title.equals("")  || time.equals("")  || location.equals("")){
-                    alertDialog = new AlertDialog.Builder(CreateNewEventActivity.this);
+                    alertDialog = new AlertDialog.Builder(new ContextThemeWrapper(CreateNewEventActivity.this, R.style.AlertDialogCustom));
                     alertDialog.setTitle("WARNING!");
                     alertDialog.setMessage("Please fill out the title, time, and location fields.");
                     alertDialog.setCancelable(false);
