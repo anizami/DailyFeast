@@ -6,12 +6,10 @@ import java.util.List;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Handler;
-import android.text.Html;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -29,7 +27,7 @@ import android.widget.EditText;
 public class CreateNewEventActivity extends Activity {
 
     // Alert Dialog
-    private AlertDialog alertDialog;
+    private AlertDialog.Builder alertDialog;
     // Progress Dialog
     private ProgressDialog pDialog;
 
@@ -65,8 +63,36 @@ public class CreateNewEventActivity extends Activity {
 
             @Override
             public void onClick(View view) {
-                // creating new event in background thread
-                new CreateNewProduct().execute();
+                String title = inputTitle.getText().toString();
+                String time = inputTime.getText().toString();
+                String location = inputLocation.getText().toString();
+                String description = inputDescription.getText().toString();
+
+
+                if (title.equals("")  || time.equals("")  || location.equals("")){
+                    alertDialog = new AlertDialog.Builder(CreateNewEventActivity.this);
+                    alertDialog.setTitle("WARNING!");
+                    alertDialog.setMessage("Please fill out the title, time, and location fields.");
+                    alertDialog.setCancelable(false);
+                    alertDialog.setIcon(R.drawable.dailyfeastlogo);
+                    alertDialog.setNegativeButton("OK", new DialogInterface.OnClickListener(){
+                        public void onClick(final DialogInterface dialog, int id){
+                            Handler handler = new Handler();
+                            handler.postDelayed(new Runnable() {
+                                public void run() {
+                                    // dismiss the dialog once done
+                                    dialog.cancel();
+                                }}, 3000);
+
+                        }});
+                    alertDialog.create();
+                    alertDialog.show();
+
+                }
+                else {
+                    // creating new event in background thread
+                    new CreateNewEvent().execute();
+                }
 
 
             }
@@ -78,7 +104,7 @@ public class CreateNewEventActivity extends Activity {
     /**
      * Background Async Task to Create new event
      * */
-    class CreateNewProduct extends AsyncTask<String, String, String> {
+    class CreateNewEvent extends AsyncTask<String, String, String> {
 
 
         Boolean success2 = true;
@@ -94,9 +120,6 @@ public class CreateNewEventActivity extends Activity {
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(true);
             pDialog.show();
-
-            //alertDialog = new AlertDialog.Builder(this);
-
         }
 
         /**
@@ -104,25 +127,12 @@ public class CreateNewEventActivity extends Activity {
          * */
         protected String doInBackground(String... args) {
 
-
             String title = inputTitle.getText().toString();
             String time = inputTime.getText().toString();
             String location = inputLocation.getText().toString();
             String description = inputDescription.getText().toString();
 
-/*
-            if (title == null || time == null || location == null){
-                alertDialog = new AlertDialog.Builder(this.getApplicationContext());
-                alertDialog.setTitle("WARNING!");
-                alertDialog.setMessage("Please fill out the title, time, and location fields.");
-                alertDialog.setCancelable(false);
-                alertDialog.setIcon(R.drawable.dailyfeastlogo);
-                alertDialog.setNegativeButton("OK", new DialogInterface.OnClickListener(){
-                    public void onClick(DialogInterface dialog, int id){
-                        dialog.cancel();
-                    }
 
-            }*/
             // Building Parameters
             List<NameValuePair> params = new ArrayList<NameValuePair>();
             params.add(new BasicNameValuePair("title", title));
