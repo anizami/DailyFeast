@@ -6,19 +6,25 @@
     <uses-sdk android:minSdkVersion="12"/>
 
     <application
-            android:label="@string/app_name"
+            android:label="Daily Feast"
             android:icon="@drawable/dailyfeastlogo"
             android:debuggable="true"
             android:theme="@style/MasonFinalTheme">
 
+        <activity android:name="com.macalester.DailyFeast.SplashScreenActivity"
 
-        <activity android:name="com.macalester.DailyFeast.StartUpActivity"
-                  android:label="Daily Feast">
+                  android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name="com.macalester.DailyFeast.StartUpActivity"
+                  >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SplashScreenActivity"/>
+                  </activity>
 
         <activity android:name="com.macalester.DailyFeast.TodaysEventsActivity"
                   android:label="@string/todays_events_name"

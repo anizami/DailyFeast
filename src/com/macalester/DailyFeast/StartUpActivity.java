@@ -12,6 +12,8 @@ import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import org.w3c.dom.Text;
+
 import java.util.Calendar;
 
 
@@ -68,7 +70,6 @@ public class StartUpActivity extends Activity{
             alertDialog = new AlertDialog.Builder(new ContextThemeWrapper(this, R.style.AlertDialogCustom));
             alertDialog.setMessage("The Daily Piper does not publish on the weekends. You can still see and add free food events submitted by your fellow users.");
             alertDialog.setCancelable(false);
-            alertDialog.setIcon(R.drawable.dailyfeastlogo);
             alertDialog.setNegativeButton("OK", new DialogInterface.OnClickListener(){
                 public void onClick(DialogInterface dialog, int id){
                     dialog.cancel();

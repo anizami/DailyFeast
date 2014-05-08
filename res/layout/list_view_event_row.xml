@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/scroller"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:fillViewport="true" >
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -10,11 +16,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:textAppearance="?android:attr/textAppearanceListItemSmall"
             android:gravity="center_vertical"
-            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
-            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
-            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:textSize="17dp"
             android:text="Event name here"/>
 
 </RelativeLayout>
+</ScrollView>

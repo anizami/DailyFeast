@@ -74,7 +74,6 @@ public class CreateNewEventActivity extends Activity {
                     alertDialog = new AlertDialog.Builder(new ContextThemeWrapper(CreateNewEventActivity.this, R.style.AlertDialogCustom));
                     alertDialog.setMessage("Please fill out the title, time, and location fields.");
                     alertDialog.setCancelable(false);
-                    alertDialog.setIcon(R.drawable.dailyfeastlogo);
                     alertDialog.setNegativeButton("OK", new DialogInterface.OnClickListener(){
                         public void onClick(final DialogInterface dialog, int id){
                             Handler handler = new Handler();

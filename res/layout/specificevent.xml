@@ -7,7 +7,7 @@
              android:layout_height="fill_parent"
              android:fillViewport="true" >
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
                   android:orientation="vertical"
                   android:layout_width="fill_parent"
                   android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/TitleName"
                 android:text="Event Title: "
-                android:textSize="17dip"
+                android:textSize="20dip"
                 android:layout_gravity="center_horizontal"/>
 
         <TextView
@@ -29,27 +29,27 @@
                 android:id="@+id/EventTitle"
                 android:layout_gravity="center_horizontal"
                 android:padding="15dp"
-                android:textAppearance="@android:style/TextAppearance.Small"/>
+                android:textSize="17dp"/>
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/TimeName"
                 android:text="Event Time: "
-                android:textSize="17dip"
+                android:textSize="20dip"
                 android:layout_gravity="center_horizontal"/>
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/EventTime"
                 android:layout_gravity="center_horizontal"
-                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:textSize="17dp"
                 android:padding="15dp"/>
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/LocationName"
                 android:text="Event Location: "
-                android:textSize="17dip"
+                android:textSize="20dip"
                 android:layout_gravity="center_horizontal"/>
 
         <TextView
@@ -57,14 +57,14 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/EventLocation"
                 android:layout_gravity="center_horizontal"
-                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:textSize="17dp"
                 android:padding="15dp"/>
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/DescriptionName"
                 android:text="Event Description: "
-                android:textSize="17dip"
+                android:textSize="20dip"
                 android:layout_gravity="center_horizontal"/>
 
         <TextView
@@ -72,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/EventDescription"
                 android:layout_gravity="center_horizontal"
-                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:textSize="17dp"
                 android:padding="15dp"
                 android:layout_weight="1.0"/>
     </LinearLayout>
