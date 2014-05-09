@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
@@ -26,7 +27,7 @@ import java.util.List;
 
 
 @SuppressLint("NewApi")
-
+// A lot of the code is built upon the framework found in this tutorial
 // http://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/
 
 public class TodaysEventsActivity extends Activity {
@@ -112,6 +113,8 @@ public class TodaysEventsActivity extends Activity {
                                 // dismiss the dialog once done
                                 dialog.cancel();
                             }}, 3000);
+                        Intent intent = new Intent(getApplicationContext(), StartUpActivity.class);
+                        startActivity(intent);
                 }});
                 alertDialog.create();
                 alertDialog.show();
