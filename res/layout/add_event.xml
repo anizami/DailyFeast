@@ -9,7 +9,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:background="#FFF6E1">
 
     <!-- Title Label -->
     <TextView android:layout_width="fill_parent"
@@ -26,6 +27,7 @@
               android:layout_height="wrap_content"
               android:layout_margin="5dip"
               android:layout_marginBottom="15dip"
+              android:hint="Enter Title"
               android:singleLine="true"/>
 
     <!-- Time Label -->
@@ -43,6 +45,7 @@
               android:layout_height="wrap_content"
               android:layout_margin="5dip"
               android:layout_marginBottom="15dip"
+              android:hint="Enter Time"
               android:singleLine="true" />
 
 
@@ -61,6 +64,7 @@
               android:layout_height="wrap_content"
               android:layout_margin="5dip"
               android:layout_marginBottom="15dip"
+              android:hint="Enter Location"
               android:singleLine="true"
               android:gravity="top"/>
 
@@ -78,6 +82,7 @@
               android:layout_height="wrap_content"
               android:layout_margin="5dip"
               android:layout_marginBottom="15dip"
+              android:hint="Enter Description"
               android:singleLine="true"/>
 
     <!-- Button Create Event -->

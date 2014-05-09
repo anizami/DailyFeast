@@ -2,10 +2,14 @@ package com.macalester.DailyFeast;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
+import android.view.ContextThemeWrapper;
 import android.widget.ListView;
 
 import com.google.gson.*;
@@ -16,7 +20,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-
+/**
+ * Created by fabiolagutierrez on 3/28/14.
+ */
 
 
 @SuppressLint("NewApi")
@@ -30,6 +36,10 @@ public class TodaysEventsActivity extends Activity {
 
     // Progress Dialog
     private ProgressDialog pDialog;
+
+    // Alert Dialog
+    private AlertDialog.Builder alertDialog;
+
 
     // Creating ServerConnector object
     ServerConnector serverConnector = new ServerConnector();
@@ -45,7 +55,6 @@ public class TodaysEventsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.todaysevents);
-
         // Loading products in Background Thread
         new LoadAllEvents().execute();
 
@@ -70,7 +79,6 @@ public class TodaysEventsActivity extends Activity {
             pDialog.show();
         }
 
-
         /**
          * getting all events from url
          */
@@ -80,6 +88,9 @@ public class TodaysEventsActivity extends Activity {
             List<NameValuePair> params = new ArrayList<NameValuePair>();
             // getting   JSON object from URL
             JSONArray jArray =  serverConnector.makeHttpRequest(urlGetEvents, "GET", params);
+            if (jArray.length() == 0){
+                return "EMPTY";
+            }
             String jsonString = jArray.toString();
             // Check your log cat for JSON response
             Log.d("All Events: ", jsonString);
@@ -112,8 +123,28 @@ public class TodaysEventsActivity extends Activity {
          * *
          */
         protected void onPostExecute(String result) {
-            // dismiss the dialog after getting all events
-            pDialog.dismiss();
+            if (result == "EMPTY"){
+                pDialog.setMessage("No free food events found.");
+                pDialog.dismiss();
+                alertDialog = new AlertDialog.Builder(new ContextThemeWrapper(TodaysEventsActivity.this, R.style.AlertDialogCustom));
+                alertDialog.setMessage("No free food events found.");
+                alertDialog.setCancelable(false);
+                alertDialog.setNegativeButton("OK", new DialogInterface.OnClickListener(){
+                    public void onClick(final DialogInterface dialog, int id){
+                        Handler handler = new Handler();
+                        handler.postDelayed(new Runnable() {
+                            public void run() {
+                                // dismiss the dialog once done
+                                dialog.cancel();
+                            }}, 3000);
+            }});
+            alertDialog.create();
+            alertDialog.show();
+            }
+            else{
+                // dismiss the dialog after getting all events
+                pDialog.dismiss();
+
             // updating UI from Background Thread
             runOnUiThread(new Runnable() {
                 public void run() {
@@ -138,4 +169,5 @@ public class TodaysEventsActivity extends Activity {
             });
         }
     }
+}
 }

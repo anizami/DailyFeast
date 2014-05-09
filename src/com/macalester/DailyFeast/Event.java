@@ -2,6 +2,10 @@ package com.macalester.DailyFeast;
 
 import java.sql.Time;
 
+/**
+ * Created by fabiolagutierrez on 3/28/14.
+ */
+
 public class Event {
     private long id;
     private String title;

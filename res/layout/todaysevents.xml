@@ -4,7 +4,8 @@
              android:id="@+id/scroller"
              android:layout_width="fill_parent"
              android:layout_height="fill_parent"
-             android:fillViewport="true" >
+             android:fillViewport="true"
+             android:background="#FFF6E1">
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"

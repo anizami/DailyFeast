@@ -1,5 +1,6 @@
 package com.macalester.DailyFeast;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -12,16 +13,19 @@ import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import org.w3c.dom.Text;
+
 
 import java.util.Calendar;
 
-
+/**
+ * Created by fabiolagutierrez on 3/28/14.
+ */
 
 public class StartUpActivity extends Activity{
 
     // Alert Dialog
     private AlertDialog.Builder alertDialog;
+
 
     //Create an anonymous implementation of OnClickListener
     private View.OnClickListener startListener = new OnClickListener() {

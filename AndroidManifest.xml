@@ -12,8 +12,8 @@
             android:theme="@style/MasonFinalTheme">
 
         <activity android:name="com.macalester.DailyFeast.SplashScreenActivity"
-
                   android:screenOrientation="portrait">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -24,7 +24,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".SplashScreenActivity"/>
-                  </activity>
+              </activity>
 
         <activity android:name="com.macalester.DailyFeast.TodaysEventsActivity"
                   android:label="@string/todays_events_name"
