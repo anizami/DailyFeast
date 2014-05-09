@@ -1,7 +1,7 @@
 package com.macalester.DailyFeast;
 
 /**
- * Created by fabiolagutierrez on 3/28/14.
+ * Created by fabiolagutierrez on 3/1/14.
  */
 
 public class Event {

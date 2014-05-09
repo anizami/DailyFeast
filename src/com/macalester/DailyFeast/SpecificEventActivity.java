@@ -11,7 +11,7 @@ import android.view.View.OnClickListener;
 import android.widget.TextView;
 
 /**
- * Created by fabiolagutierrez on 3/28/14.
+ * Created by fabiolagutierrez on 3/2/14.
  */
 
 public class SpecificEventActivity extends Activity {

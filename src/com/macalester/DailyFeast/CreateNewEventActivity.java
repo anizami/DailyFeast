@@ -31,7 +31,7 @@ public class CreateNewEventActivity extends Activity {
     // Progress Dialog
     private ProgressDialog pDialog;
 
-    ServerConnector serverConnector = new ServerConnector();
+    private ServerConnector serverConnector = new ServerConnector();
     private EditText inputTitle;
     private EditText inputTime;
     private EditText inputLocation;
@@ -133,7 +133,7 @@ public class CreateNewEventActivity extends Activity {
             try {
                 success2 = jArray.getBoolean(1);
 
-                if (success2 == true) { //successfully created event
+                if (success2) { //successfully created event
                     Intent i = new Intent(getApplicationContext(), TodaysEventsActivity.class);
                     startActivity(i);
                     finish();
@@ -148,7 +148,7 @@ public class CreateNewEventActivity extends Activity {
          * After completing background task Dismiss the progress dialog
          * **/
         protected void onPostExecute(String result) {
-            if (success2 == true){
+            if (success2){
             pDialog.setMessage("Your event was successfully added!");
             Handler handler = new Handler();
             handler.postDelayed(new Runnable() {

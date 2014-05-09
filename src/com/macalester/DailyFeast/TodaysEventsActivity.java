@@ -21,11 +21,13 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Created by fabiolagutierrez on 3/28/14.
+ * Created by fabiolagutierrez on 3/1/14.
  */
 
 
 @SuppressLint("NewApi")
+
+// http://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/
 
 public class TodaysEventsActivity extends Activity {
 
@@ -127,6 +129,7 @@ public class TodaysEventsActivity extends Activity {
                      * */
 
                     // create adapter instance that will help populate listView component with our eventsArray data
+                    //http://www.mkyong.com/android/android-listview-example/
                     EventsArrayAdapter adapter = new EventsArrayAdapter(TodaysEventsActivity.this, R.layout.list_view_event_row, eventsArray);
 
                     //get the ListView component from the layout

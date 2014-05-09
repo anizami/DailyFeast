@@ -21,18 +21,13 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fed879-c58f-49ab-b33c-c8e3cefaacce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/EventAttributes.java" />
+    <list default="true" id="40fed879-c58f-49ab-b33c-c8e3cefaacce" name="Default" comment="added url&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/Event.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/Event.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/EventsArrayAdapter.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/EventsArrayAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/OnEventClickListener.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/OnEventClickListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/ServerConnector.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/ServerConnector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/SpecificEventActivity.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/SpecificEventActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/StartUpActivity.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/StartUpActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DailyFeast.iws" />
@@ -100,7 +95,7 @@
       <file leaf-file-name="SpecificEventActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SpecificEventActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="1157" selection-end="1157" vertical-scroll-proportion="16.384615" vertical-offset="801" max-vertical-offset="1215">
+            <state line="13" column="37" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="943" max-vertical-offset="1215">
               <folding />
             </state>
           </provider>
@@ -109,37 +104,18 @@
       <file leaf-file-name="SplashScreenActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="480">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="14" column="13" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TodaysEventsActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="22" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="2235">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1096#1103#0" expanded="true" />
-                <element signature="e#2094#2109#0" expanded="true" />
-                <element signature="e#3887#4341#0" expanded="true" />
-                <element signature="e#4339#4340#0" expanded="true" />
-                <element signature="e#4633#5496#0" expanded="true" />
-                <element signature="e#5477#5478#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerConnector.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ServerConnector.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/ServerConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.0795455" vertical-offset="550" max-vertical-offset="990">
+            <state line="42" column="37" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -148,7 +124,7 @@
       <file leaf-file-name="EventAttributes.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/EventAttributes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="5" column="12" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -157,7 +133,7 @@
       <file leaf-file-name="specificevent.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/specificevent.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="37" selection-start="451" selection-end="451" vertical-scroll-proportion="17.222221" vertical-offset="645" max-vertical-offset="1305">
+            <state line="12" column="37" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="892" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
@@ -169,18 +145,25 @@
       <file leaf-file-name="CreateNewEventActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="30" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="2655">
+            <state line="132" column="17" selection-start="4978" selection-end="4978" vertical-scroll-proportion="0.0" vertical-offset="1706" max-vertical-offset="2535">
               <folding>
-                <element signature="e#1788#3288#0" expanded="true" />
-                <element signature="e#2516#3006#0" expanded="true" />
-                <element signature="e#2747#2971#0" expanded="true" />
-                <element signature="e#2969#2970#0" expanded="true" />
-                <element signature="e#3004#3005#0" expanded="true" />
-                <element signature="e#3277#3278#0" expanded="true" />
-                <element signature="e#5734#5844#0" expanded="true" />
-                <element signature="e#5842#5843#0" expanded="true" />
-                <element signature="e#6161#6283#0" expanded="true" />
-                <element signature="e#6281#6282#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1796#3296#0" expanded="true" />
+                <element signature="e#3285#3286#0" expanded="true" />
+                <element signature="e#4395#4410#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodaysEventsActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="131" column="77" selection-start="5072" selection-end="5072" vertical-scroll-proportion="0.36293435" vertical-offset="1826" max-vertical-offset="2235">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1174#1181#0" expanded="true" />
+                <element signature="e#2172#2187#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,7 +172,7 @@
       <file leaf-file-name="home_menu.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/menu/home_menu.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="7" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="9" column="7" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -207,7 +190,7 @@
       <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="50" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="5" column="50" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -267,23 +250,24 @@
         <option value="$PROJECT_DIR$/res/layout/add_event.xml" />
         <option value="$PROJECT_DIR$/res/menu/home_menu.xml" />
         <option value="$PROJECT_DIR$/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/Event.java" />
-        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/EventsArrayAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/StartUpActivity.java" />
         <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/EventAttributes.java" />
         <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/OnEventClickListener.java" />
-        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/SpecificEventActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java" />
         <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/ServerConnector.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/Event.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/EventsArrayAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/SpecificEventActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/StartUpActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="9" />
+    <option name="y" value="52" />
     <option name="width" value="1205" />
-    <option name="height" value="645" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -313,6 +297,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -323,6 +309,60 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyFeast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsoup-1.7.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsoup-1.7.3.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyFeast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-json.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyFeast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gson-2.2.4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gson-2.2.4.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -358,6 +398,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="commons-io-2.4.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyFeast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jtds-1.3.1.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -549,8 +603,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -567,7 +619,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/commons-io-2.4/commons-io-2.4.jar!/" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -841,7 +893,7 @@
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
@@ -950,7 +1002,8 @@
       <workItem from="1399485367897" duration="13549000" />
       <workItem from="1399517842131" duration="189000" />
       <workItem from="1399530288292" duration="18840000" />
-      <workItem from="1399596982808" duration="14822000" />
+      <workItem from="1399596982808" duration="16956000" />
+      <workItem from="1399620173569" duration="2583000" />
     </task>
     <task id="LOCAL-00001" summary="I made no change">
       <created>1393206123064</created>
@@ -1060,11 +1113,15 @@
       <created>1399605156194</created>
       <updated>1399605156194</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Cleaning up classes yo">
+      <created>1399616247825</created>
+      <updated>1399616247825</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312449000" />
+    <option name="totallyTimeSpent" value="317166000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1087,36 +1144,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1205" height="645" extended-state="0" />
+    <frame x="9" y="52" width="1205" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3443918" sideWeight="0.49905482" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11211573" sideWeight="0.3155632" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23057432" sideWeight="0.1724138" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270142" sideWeight="0.49905482" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3443918" sideWeight="0.4995141" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23129837" sideWeight="0.82758623" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30136988" sideWeight="0.49757674" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32385466" sideWeight="0.49957007" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3127962" sideWeight="0.49905482" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0047808765" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3127962" sideWeight="0.49905482" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2438247" sideWeight="0.5009709" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4722222" sideWeight="0.3155632" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270142" sideWeight="0.49905482" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23057432" sideWeight="0.1724138" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22054794" sideWeight="0.5323102" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11211573" sideWeight="0.6844368" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4722222" sideWeight="0.6844368" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3443918" sideWeight="0.4995141" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24935512" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23129837" sideWeight="0.82758623" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3006536" sideWeight="0.49699053" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32385466" sideWeight="0.49957007" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0047808765" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.49957007" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39968404" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1124,13 +1181,13 @@
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34533897" sideWeight="0.4995141" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2058433" sideWeight="0.50078124" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2058433" sideWeight="0.50078124" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.4995141" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3041788" sideWeight="0.50157726" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.4995141" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34533897" sideWeight="0.4995141" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2180937" sideWeight="0.49902913" order="0" side_tool="false" content_ui="combo" />
@@ -1149,8 +1206,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32543445" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38425198" sideWeight="0.49921876" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1189,7 +1246,9 @@
     <MESSAGE value="added alertdialog for no events (Asra says yo)" />
     <MESSAGE value="splash screen activity test&#10;" />
     <MESSAGE value="trying to update project yo&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to update project yo&#10;" />
+    <MESSAGE value="Cleaning up classes yo" />
+    <MESSAGE value="added url&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added url&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1222,11 +1281,7 @@
     <entry file="file://$PROJECT_DIR$/res/layout/startup.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="780">
-          <folding>
-            <element signature="e#835#853#0" expanded="false" />
-            <element signature="e#1345#1371#0" expanded="false" />
-            <element signature="e#2016#2047#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -1254,12 +1309,8 @@
         <state line="25" column="33" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="885">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1096#1103#0" expanded="true" />
-            <element signature="e#2094#2109#0" expanded="true" />
-            <element signature="e#3887#4341#0" expanded="true" />
-            <element signature="e#4339#4340#0" expanded="true" />
-            <element signature="e#4633#5496#0" expanded="true" />
-            <element signature="e#5477#5478#0" expanded="true" />
+            <element signature="e#1174#1181#0" expanded="true" />
+            <element signature="e#2172#2187#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1302,11 +1353,7 @@
     <entry file="file://$PROJECT_DIR$/res/layout/startup.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="11" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="945">
-          <folding>
-            <element signature="e#835#853#0" expanded="false" />
-            <element signature="e#1345#1371#0" expanded="false" />
-            <element signature="e#2016#2047#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -1424,33 +1471,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/startup.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="41" selection-start="553" selection-end="553" vertical-scroll-proportion="0.5067568" vertical-offset="30" max-vertical-offset="930">
-          <folding>
-            <element signature="e#835#853#0" expanded="false" />
-            <element signature="e#1345#1371#0" expanded="false" />
-            <element signature="e#2016#2047#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/todaysevents.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="-4.4444447" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/list_view_event_row.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="48" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
@@ -1492,26 +1515,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/specificevent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="37" selection-start="451" selection-end="451" vertical-scroll-proportion="17.222221" vertical-offset="645" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="29" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0703125" vertical-offset="0" max-vertical-offset="640">
           <folding />
         </state>
       </provider>
@@ -1523,25 +1529,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/specificevent.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="37" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="892" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/startup.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="41" selection-start="553" selection-end="553" vertical-scroll-proportion="0.36319613" vertical-offset="30" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/list_view_event_row.xml">
+      <provider editor-type-id="text-editor">
+        <state line="12" column="48" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/EventAttributes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="5" column="12" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="37" selection-start="77" selection-end="77" vertical-scroll-proportion="0.073529415" vertical-offset="25" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/EventsArrayAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="5" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.72727275" vertical-offset="295" max-vertical-offset="735">
+        <state line="12" column="37" selection-start="323" selection-end="323" vertical-scroll-proportion="0.073529415" vertical-offset="160" max-vertical-offset="735">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/OnEventClickListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="630">
+        <state line="19" column="0" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/ServerConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="37" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="825">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/StartUpActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="37" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="716" max-vertical-offset="1410">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1550,67 +1618,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SpecificEventActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1157" selection-end="1157" vertical-scroll-proportion="16.384615" vertical-offset="801" max-vertical-offset="1215">
+        <state line="13" column="37" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/StartUpActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="530" selection-end="530" vertical-scroll-proportion="-1.5644028" vertical-offset="968" max-vertical-offset="1410">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="2655">
-          <folding>
-            <element signature="e#1788#3288#0" expanded="true" />
-            <element signature="e#2516#3006#0" expanded="true" />
-            <element signature="e#2747#2971#0" expanded="true" />
-            <element signature="e#2969#2970#0" expanded="true" />
-            <element signature="e#3004#3005#0" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#5734#5844#0" expanded="true" />
-            <element signature="e#5842#5843#0" expanded="true" />
-            <element signature="e#6161#6283#0" expanded="true" />
-            <element signature="e#6281#6282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="132" column="17" selection-start="4978" selection-end="4978" vertical-scroll-proportion="0.0" vertical-offset="1706" max-vertical-offset="2535">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1796#3296#0" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
+            <element signature="e#4395#4410#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="22" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="2235">
+        <state line="131" column="77" selection-start="5072" selection-end="5072" vertical-scroll-proportion="0.36293435" vertical-offset="1826" max-vertical-offset="2235">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1096#1103#0" expanded="true" />
-            <element signature="e#2094#2109#0" expanded="true" />
-            <element signature="e#3887#4341#0" expanded="true" />
-            <element signature="e#4339#4340#0" expanded="true" />
-            <element signature="e#4633#5496#0" expanded="true" />
-            <element signature="e#5477#5478#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/ServerConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.0795455" vertical-offset="550" max-vertical-offset="990">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1174#1181#0" expanded="true" />
+            <element signature="e#2172#2187#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1672,7 +1703,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

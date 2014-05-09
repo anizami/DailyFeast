@@ -10,7 +10,7 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * Created by fabiolagutierrez on 3/28/14.
+ * Created by fabiolagutierrez on 3/1/14.
  */
 public class EventsArrayAdapter extends ArrayAdapter<Event> {
 
