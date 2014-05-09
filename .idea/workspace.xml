@@ -21,9 +21,8 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fed879-c58f-49ab-b33c-c8e3cefaacce" name="Default" comment="splash screen activity test&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/home_menu.xml" />
+    <list default="true" id="40fed879-c58f-49ab-b33c-c8e3cefaacce" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DailyFeast.iws" />
@@ -100,7 +99,7 @@
       <file leaf-file-name="SplashScreenActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="423" selection-end="423" vertical-scroll-proportion="0.5570292" vertical-offset="0" max-vertical-offset="600">
+            <state line="16" column="4" selection-start="425" selection-end="425" vertical-scroll-proportion="0.6366048" vertical-offset="0" max-vertical-offset="630">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,7 +110,7 @@
       <file leaf-file-name="specificevent.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/specificevent.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="37" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1305">
+            <state line="12" column="37" selection-start="451" selection-end="451" vertical-scroll-proportion="-6.111111" vertical-offset="15" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
@@ -929,7 +928,7 @@
       <workItem from="1399485367897" duration="13549000" />
       <workItem from="1399517842131" duration="189000" />
       <workItem from="1399530288292" duration="18840000" />
-      <workItem from="1399596982808" duration="3985000" />
+      <workItem from="1399596982808" duration="4093000" />
     </task>
     <task id="LOCAL-00001" summary="I made no change">
       <created>1393206123064</created>
@@ -1031,11 +1030,15 @@
       <created>1399602877909</created>
       <updated>1399602877909</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="splash screen activity test&#10;">
+      <created>1399602996697</created>
+      <updated>1399602996697</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301612000" />
+    <option name="totallyTimeSpent" value="301720000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1450,16 +1453,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/specificevent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="37" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/list_view_event_row.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="48" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="405">
@@ -1565,9 +1558,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/specificevent.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="37" selection-start="451" selection-end="451" vertical-scroll-proportion="-6.111111" vertical-offset="15" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="423" selection-end="423" vertical-scroll-proportion="0.5570292" vertical-offset="0" max-vertical-offset="600">
+        <state line="16" column="4" selection-start="425" selection-end="425" vertical-scroll-proportion="0.6366048" vertical-offset="0" max-vertical-offset="630">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
