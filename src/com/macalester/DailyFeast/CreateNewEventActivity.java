@@ -11,7 +11,6 @@ import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONException;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -33,17 +32,12 @@ public class CreateNewEventActivity extends Activity {
     private ProgressDialog pDialog;
 
     ServerConnector serverConnector = new ServerConnector();
-    EditText inputTitle;
-    EditText inputTime;
-    EditText inputLocation;
-    EditText inputDescription;
+    private EditText inputTitle;
+    private EditText inputTime;
+    private EditText inputLocation;
+    private EditText inputDescription;
 
-    // url to create new product
-    private static String url_create_event = "http://pure-lake-3835.herokuapp.com/addEvent";
-//    private static String url_create_event = "http://dailyfeast.herokuapp.com/addEvent";
-
-    // JSON Node names
-
+    private static String URL_CREATE_EVENT = "http://thedailyfeast.herokuapp.com/addEvent";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -67,8 +61,6 @@ public class CreateNewEventActivity extends Activity {
                 String title = inputTitle.getText().toString();
                 String time = inputTime.getText().toString();
                 String location = inputLocation.getText().toString();
-                String description = inputDescription.getText().toString();
-
 
                 if (title.equals("")  || time.equals("")  || location.equals("")){
                     alertDialog = new AlertDialog.Builder(new ContextThemeWrapper(CreateNewEventActivity.this, R.style.AlertDialogCustom));
@@ -82,22 +74,16 @@ public class CreateNewEventActivity extends Activity {
                                     // dismiss the dialog once done
                                     dialog.cancel();
                                 }}, 3000);
-
                         }});
                     alertDialog.create();
                     alertDialog.show();
-
                 }
                 else {
                     // creating new event in background thread
                     new CreateNewEvent().execute();
                 }
-
-
             }
         });
-
-
     }
 
     /**
@@ -105,7 +91,7 @@ public class CreateNewEventActivity extends Activity {
      * */
     class CreateNewEvent extends AsyncTask<String, String, String> {
 
-
+        // Variable to check if event was successfully created
         Boolean success2 = true;
 
         /**
@@ -131,38 +117,26 @@ public class CreateNewEventActivity extends Activity {
             String location = inputLocation.getText().toString();
             String description = inputDescription.getText().toString();
 
-
-            // Building Parameters
             List<NameValuePair> params = new ArrayList<NameValuePair>();
             params.add(new BasicNameValuePair("title", title));
             params.add(new BasicNameValuePair("time", time));
             params.add(new BasicNameValuePair("location", location));
             params.add(new BasicNameValuePair ("description", description));
 
-            // getting JSON Object
-            // Note that create event url accepts POST method
-            JSONArray jArray = serverConnector.makeHttpRequest(url_create_event,
+            JSONArray jArray = serverConnector.makeHttpRequest(URL_CREATE_EVENT,
                     "POST", params);
-
 
             // check log cat for response
             Log.d("Create Response", jArray.toString());
 
-            // check for success tag
+            // check for success tag in response json
             try {
                 success2 = jArray.getBoolean(1);
 
-                if (success2 == true) {
-
-                    // successfully created event
+                if (success2 == true) { //successfully created event
                     Intent i = new Intent(getApplicationContext(), TodaysEventsActivity.class);
                     startActivity(i);
-
-
-                    // closing this screen
                     finish();
-                } else {
-                    // failed to create event
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -179,26 +153,19 @@ public class CreateNewEventActivity extends Activity {
             Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
                 public void run() {
-                    // dismiss the dialog once done
                     pDialog.dismiss();
                 }}, 3000);
             Intent intent = new Intent(getApplicationContext(), TodaysEventsActivity.class);
             startActivity(intent);
             }
            else {
-                //dismiss progress dialog
                 pDialog.setMessage("Unable to create event.");
                 Handler handler = new Handler();
                 handler.postDelayed(new Runnable() {
                     public void run() {
-                        // dismiss the dialog once done
                         pDialog.dismiss();
                     }}, 3000);
-
             }
-
-
-
-    }
+        }
     }
 }

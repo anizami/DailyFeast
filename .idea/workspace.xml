@@ -22,8 +22,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40fed879-c58f-49ab-b33c-c8e3cefaacce" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/EventAttributes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/Event.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/Event.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/EventsArrayAdapter.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/EventsArrayAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/OnEventClickListener.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/OnEventClickListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/ServerConnector.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/ServerConnector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/SpecificEventActivity.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/SpecificEventActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/StartUpActivity.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/StartUpActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DailyFeast.iws" />
@@ -88,10 +97,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SpecificEventActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SpecificEventActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SpecificEventActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="31" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.5884774" vertical-offset="382" max-vertical-offset="1350">
+            <state line="35" column="0" selection-start="1157" selection-end="1157" vertical-scroll-proportion="16.384615" vertical-offset="801" max-vertical-offset="1215">
               <folding />
             </state>
           </provider>
@@ -100,7 +109,7 @@
       <file leaf-file-name="SplashScreenActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="630">
+            <state line="14" column="13" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="480">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,10 +117,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerConnector.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TodaysEventsActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="22" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="2235">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1096#1103#0" expanded="true" />
+                <element signature="e#2094#2109#0" expanded="true" />
+                <element signature="e#3887#4341#0" expanded="true" />
+                <element signature="e#4339#4340#0" expanded="true" />
+                <element signature="e#4633#5496#0" expanded="true" />
+                <element signature="e#5477#5478#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerConnector.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/ServerConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="13" selection-start="2838" selection-end="2838" vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="1320">
+            <state line="5" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.0795455" vertical-offset="550" max-vertical-offset="990">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventAttributes.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/EventAttributes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -120,7 +157,7 @@
       <file leaf-file-name="specificevent.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/specificevent.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="37" selection-start="451" selection-end="451" vertical-scroll-proportion="-6.111111" vertical-offset="15" max-vertical-offset="1305">
+            <state line="12" column="37" selection-start="451" selection-end="451" vertical-scroll-proportion="17.222221" vertical-offset="645" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
@@ -132,10 +169,18 @@
       <file leaf-file-name="CreateNewEventActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="0" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2745">
+            <state line="12" column="30" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="2655">
               <folding>
-                <element signature="e#2712#3203#0" expanded="true" />
-                <element signature="e#3201#3202#0" expanded="true" />
+                <element signature="e#1788#3288#0" expanded="true" />
+                <element signature="e#2516#3006#0" expanded="true" />
+                <element signature="e#2747#2971#0" expanded="true" />
+                <element signature="e#2969#2970#0" expanded="true" />
+                <element signature="e#3004#3005#0" expanded="true" />
+                <element signature="e#3277#3278#0" expanded="true" />
+                <element signature="e#5734#5844#0" expanded="true" />
+                <element signature="e#5842#5843#0" expanded="true" />
+                <element signature="e#6161#6283#0" expanded="true" />
+                <element signature="e#6281#6282#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,22 +195,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_splash.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_splash.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="47" selection-start="903" selection-end="903" vertical-scroll-proportion="-8.185185" vertical-offset="109" max-vertical-offset="465">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="75" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="585">
+            <state line="11" column="29" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -174,16 +207,7 @@
       <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="39" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
+            <state line="5" column="50" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -202,9 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/DailyFeast/TodayActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/DailyFeast/SpecificActivity.java" />
-        <option value="$USER_HOME$/Downloads/DailyFeast 2/layout/list_view_row_event.xml" />
         <option value="$PROJECT_DIR$/src/com/example/DailyFeast/OnItemClickListenerListViewEvent.java" />
         <option value="$PROJECT_DIR$/src/com/example/DailyFeast/ArrayAdapterEvent.java" />
         <option value="$PROJECT_DIR$/src/com/example/DailyFeast/MyActivity.java" />
@@ -233,15 +254,10 @@
         <option value="$PROJECT_DIR$/src/com/example/DailyFeast/NewEventActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/DailyFeast/StartUpActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/DailyFeast/CreateNewEventActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/home_menu.xml" />
-        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/Event.java" />
-        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/EventsArrayAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/StartUpActivity.java" />
         <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/ActionBarPractice.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/values/custom_theme.xml" />
-        <option value="$PROJECT_DIR$/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_splash.xml" />
         <option value="$PROJECT_DIR$/res/layout/startup.xml" />
@@ -250,9 +266,17 @@
         <option value="$PROJECT_DIR$/res/layout/list_view_event_row.xml" />
         <option value="$PROJECT_DIR$/res/layout/add_event.xml" />
         <option value="$PROJECT_DIR$/res/menu/home_menu.xml" />
-        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java" />
+        <option value="$PROJECT_DIR$/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/Event.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/EventsArrayAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/StartUpActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/EventAttributes.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/OnEventClickListener.java" />
         <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/SpecificEventActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/ServerConnector.java" />
       </list>
     </option>
   </component>
@@ -817,7 +841,7 @@
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
@@ -926,7 +950,7 @@
       <workItem from="1399485367897" duration="13549000" />
       <workItem from="1399517842131" duration="189000" />
       <workItem from="1399530288292" duration="18840000" />
-      <workItem from="1399596982808" duration="5818000" />
+      <workItem from="1399596982808" duration="14822000" />
     </task>
     <task id="LOCAL-00001" summary="I made no change">
       <created>1393206123064</created>
@@ -1032,11 +1056,15 @@
       <created>1399602996697</created>
       <updated>1399602996697</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="trying to update project yo&#10;">
+      <created>1399605156194</created>
+      <updated>1399605156194</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303445000" />
+    <option name="totallyTimeSpent" value="312449000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1066,7 +1094,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3443918" sideWeight="0.49905482" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46835443" sideWeight="0.44024077" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11211573" sideWeight="0.3155632" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23057432" sideWeight="0.1724138" order="3" side_tool="true" content_ui="tabs" />
@@ -1074,7 +1102,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3443918" sideWeight="0.4995141" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23129837" sideWeight="0.82758623" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30173776" sideWeight="0.4978504" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30136988" sideWeight="0.49757674" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32385466" sideWeight="0.49957007" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3127962" sideWeight="0.49905482" order="15" side_tool="false" content_ui="tabs" />
@@ -1082,8 +1110,8 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0047808765" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2438247" sideWeight="0.5009709" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22116904" sideWeight="0.53310406" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46835443" sideWeight="0.55975926" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22054794" sideWeight="0.5323102" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11211573" sideWeight="0.6844368" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24935512" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1160,7 +1188,8 @@
     <MESSAGE value="no title bar and added splash screen&#10;" />
     <MESSAGE value="added alertdialog for no events (Asra says yo)" />
     <MESSAGE value="splash screen activity test&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="splash screen activity test&#10;" />
+    <MESSAGE value="trying to update project yo&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to update project yo&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1170,16 +1199,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/add_event.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="15" selection-start="3609" selection-end="3609" vertical-scroll-proportion="0.0" vertical-offset="1219" max-vertical-offset="1515">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/todaysevents.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="255">
@@ -1235,7 +1254,12 @@
         <state line="25" column="33" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="885">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1596#1603#0" expanded="true" />
+            <element signature="e#1096#1103#0" expanded="true" />
+            <element signature="e#2094#2109#0" expanded="true" />
+            <element signature="e#3887#4341#0" expanded="true" />
+            <element signature="e#4339#4340#0" expanded="true" />
+            <element signature="e#4633#5496#0" expanded="true" />
+            <element signature="e#5477#5478#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1400,13 +1424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/startup.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="41" selection-start="553" selection-end="553" vertical-scroll-proportion="0.5067568" vertical-offset="30" max-vertical-offset="930">
@@ -1451,36 +1468,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/EventsArrayAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="97" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="855">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="592" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/OnEventClickListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="64" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="75" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_splash.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="47" selection-start="903" selection-end="903" vertical-scroll-proportion="-8.185185" vertical-offset="109" max-vertical-offset="465">
@@ -1491,23 +1478,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="32" selection-start="1203" selection-end="1203" vertical-scroll-proportion="-0.31299734" vertical-offset="553" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="0" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2745">
-          <folding>
-            <element signature="e#2712#3203#0" expanded="true" />
-            <element signature="e#3201#3202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/menu/home_menu.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="7" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
@@ -1515,9 +1485,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="50" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/specificevent.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="37" selection-start="451" selection-end="451" vertical-scroll-proportion="-6.111111" vertical-offset="15" max-vertical-offset="1305">
+        <state line="12" column="37" selection-start="451" selection-end="451" vertical-scroll-proportion="17.222221" vertical-offset="645" max-vertical-offset="1305">
           <folding />
         </state>
       </provider>
@@ -1525,47 +1502,116 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="630">
+        <state line="11" column="29" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0703125" vertical-offset="0" max-vertical-offset="640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="37" selection-start="415" selection-end="415" vertical-scroll-proportion="0.24909091" vertical-offset="13" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/EventAttributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/EventsArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="5" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.72727275" vertical-offset="295" max-vertical-offset="735">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/StartUpActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/OnEventClickListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="49" selection-start="773" selection-end="773" vertical-scroll-proportion="-2.612903" vertical-offset="1260" max-vertical-offset="1605">
+        <state line="30" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="630">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#773#1112#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SpecificEventActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1157" selection-end="1157" vertical-scroll-proportion="16.384615" vertical-offset="801" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/StartUpActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="530" selection-end="530" vertical-scroll-proportion="-1.5644028" vertical-offset="968" max-vertical-offset="1410">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="2655">
+          <folding>
+            <element signature="e#1788#3288#0" expanded="true" />
+            <element signature="e#2516#3006#0" expanded="true" />
+            <element signature="e#2747#2971#0" expanded="true" />
+            <element signature="e#2969#2970#0" expanded="true" />
+            <element signature="e#3004#3005#0" expanded="true" />
+            <element signature="e#3277#3278#0" expanded="true" />
+            <element signature="e#5734#5844#0" expanded="true" />
+            <element signature="e#5842#5843#0" expanded="true" />
+            <element signature="e#6161#6283#0" expanded="true" />
+            <element signature="e#6281#6282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="22" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.08064516" vertical-offset="515" max-vertical-offset="2595">
+        <state line="81" column="22" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="2235">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1596#1603#0" expanded="true" />
+            <element signature="e#1096#1103#0" expanded="true" />
+            <element signature="e#2094#2109#0" expanded="true" />
+            <element signature="e#3887#4341#0" expanded="true" />
+            <element signature="e#4339#4340#0" expanded="true" />
+            <element signature="e#4633#5496#0" expanded="true" />
+            <element signature="e#5477#5478#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/ServerConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="13" selection-start="2838" selection-end="2838" vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="1320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SpecificEventActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="31" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.5884774" vertical-offset="382" max-vertical-offset="1350">
-          <folding />
+        <state line="5" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.0795455" vertical-offset="550" max-vertical-offset="990">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

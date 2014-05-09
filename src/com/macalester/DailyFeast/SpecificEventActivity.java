@@ -28,13 +28,11 @@ public class SpecificEventActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.specificevent);
 
-
-        // Get the message from the intent
         Intent intent = getIntent();
-        String eventTitle = intent.getStringExtra(TodaysEventsActivity.EXTRA_TITLE);
-        String eventLocation = intent.getStringExtra(TodaysEventsActivity.EXTRA_LOCATION);
-        String eventDescription = intent.getStringExtra(TodaysEventsActivity.EXTRA_DESCRIPTION);
-        String eventTime= intent.getStringExtra(TodaysEventsActivity.EXTRA_TIME);
+        String eventTitle = intent.getStringExtra(EventAttributes.TITLE.toString());
+        String eventLocation = intent.getStringExtra(EventAttributes.LOCATION.toString());
+        String eventTime = intent.getStringExtra(EventAttributes.TIME.toString());
+        String eventDescription = intent.getStringExtra(EventAttributes.DESCRIPTION.toString());
 
         //check if some information is missing
         if (eventLocation == null){
@@ -47,20 +45,14 @@ public class SpecificEventActivity extends Activity {
             eventTime = "Unable to find information";
         }
 
-        //Get the textView EventTitle
-
         TextView tvTitle = (TextView) findViewById(R.id.EventTitle);
         tvTitle.setText(eventTitle);
-        //Get the textView EventLocation
         TextView tvLocation = (TextView) findViewById(R.id.EventLocation);
         tvLocation.setText(eventLocation);
-        //Get the textView EventDescription
         TextView tvDescription = (TextView) findViewById(R.id.EventDescription);
         tvDescription.setText(eventDescription);
-        //Get the textView EventTime
         TextView tvTime = (TextView) findViewById(R.id.EventTime);
         tvTime.setText(eventTime);
-
     }
 
     //taken from: http://www.androidhive.info/2013/11/android-working-with-action-bar/
@@ -68,7 +60,6 @@ public class SpecificEventActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.home_menu, menu);
-
         return super.onCreateOptionsMenu(menu);
     }
 

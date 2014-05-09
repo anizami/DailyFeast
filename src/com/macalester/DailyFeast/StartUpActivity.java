@@ -1,6 +1,5 @@
 package com.macalester.DailyFeast;
 
-import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -13,8 +12,6 @@ import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-
-
 import java.util.Calendar;
 
 /**
@@ -23,9 +20,7 @@ import java.util.Calendar;
 
 public class StartUpActivity extends Activity{
 
-    // Alert Dialog
     private AlertDialog.Builder alertDialog;
-
 
     //Create an anonymous implementation of OnClickListener
     private View.OnClickListener startListener = new OnClickListener() {
@@ -70,7 +65,6 @@ public class StartUpActivity extends Activity{
         }
 
         if (day == 1 || day == 7){
-
             alertDialog = new AlertDialog.Builder(new ContextThemeWrapper(this, R.style.AlertDialogCustom));
             alertDialog.setMessage("The Daily Piper does not publish on the weekends. You can still see and add free food events submitted by your fellow users.");
             alertDialog.setCancelable(false);
@@ -85,22 +79,17 @@ public class StartUpActivity extends Activity{
 
             // show it
             alertDialog.show();
-
         }
-
     }
 
-
-    /** Called when the user clicks the startButton */
+    // Called when the user clicks the startButton
     public void gotoTodaysEvents() {
         Intent intent = new Intent(this, TodaysEventsActivity.class);
         startActivity(intent);
     }
 
-
     public void createEvents () {
         Intent intent = new Intent(this, CreateNewEventActivity.class);
         startActivity(intent);
     }
-
 }

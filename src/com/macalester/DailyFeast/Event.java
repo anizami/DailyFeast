@@ -1,7 +1,5 @@
 package com.macalester.DailyFeast;
 
-import java.sql.Time;
-
 /**
  * Created by fabiolagutierrez on 3/28/14.
  */
@@ -12,18 +10,6 @@ public class Event {
     private String location;
     private String description;
     private String time;
-    private Time createdAt, updatedAt;
-
-
-
-
-   // public Event(long id, String title, String time, String location, String description) {
-   //     this.id = id;
-   //     this.title = title;
-   //     this.location = location;
-   //     this.description = description;
-    //    this.time = time;
-    //}
 
 
     public long getId() {
@@ -64,20 +50,4 @@ public class Event {
         this.description = description;
     }
 
-    public Time getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(Time createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    public Time getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(Time updatedAt) {
-        this.updatedAt = updatedAt;
-
-    }
 }

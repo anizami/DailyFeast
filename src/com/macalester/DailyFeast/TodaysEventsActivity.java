@@ -29,24 +29,14 @@ import java.util.List;
 
 public class TodaysEventsActivity extends Activity {
 
-    public final static String EXTRA_TITLE = "com.macalester.DailyFeast.TITLE";
-    public final static String EXTRA_TIME = "com.macalester.DailyFeast.TIME";
-    public final static String EXTRA_LOCATION = "com.macalester.DailyFeast.LOCATION";
-    public final static String EXTRA_DESCRIPTION = "com.macalester.DailyFeast.DESCRIPTION";
-
     // Progress Dialog
     private ProgressDialog pDialog;
 
     // Alert Dialog
     private AlertDialog.Builder alertDialog;
 
-
-    // Creating ServerConnector object
     ServerConnector serverConnector = new ServerConnector();
-
-    // url to get all events list
-//    private static String urlGetEvents = "http://dailyfeast.herokuapp.com/getPiper";
-    private static String urlGetEvents = "http://pure-lake-3835.herokuapp.com/getPiper";
+    private static String urlGetEvents = "http://thedailyfeast.herokuapp.com/getPiper";
 
     //ArrayList<Event> eventsArray = piper.retrieveListOfEvents();
     private ArrayList<Event> eventsArray = new ArrayList <Event>();
@@ -55,9 +45,7 @@ public class TodaysEventsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.todaysevents);
-        // Loading products in Background Thread
         new LoadAllEvents().execute();
-
     }
 
     /**
@@ -79,35 +67,25 @@ public class TodaysEventsActivity extends Activity {
             pDialog.show();
         }
 
-        /**
-         * getting all events from url
-         */
         protected String doInBackground(String... args) {
 
-            // Building Parameters
             List<NameValuePair> params = new ArrayList<NameValuePair>();
-            // getting   JSON object from URL
             JSONArray jArray =  serverConnector.makeHttpRequest(urlGetEvents, "GET", params);
             if (jArray.length() == 0){
                 return "EMPTY";
             }
             String jsonString = jArray.toString();
-            // Check your log cat for JSON response
-            Log.d("All Events: ", jsonString);
-
             try{
                 //create a jsonElement (com.google.gson) using the jsonString (we do that so it's easy to get it as an array that we can iterate
                 JsonElement jsonElement = new JsonParser().parse(jsonString);
                 //now get the the jsonElement as an array
                 JsonArray jsonArray = jsonElement.getAsJsonArray();
-
                 //now iterate through this array to extract the json representation of each individual event
                 Iterator iterator = jsonArray.iterator();
                 while(iterator.hasNext()){
                     JsonElement jsonEvent = (JsonElement)iterator.next();
                     Event event = new Gson().fromJson(jsonEvent, Event.class);
                     eventsArray.add(event);
-
                 }
             } catch (JsonParseException e){
                 eventsArray.add(new Event());
@@ -117,13 +95,8 @@ public class TodaysEventsActivity extends Activity {
             return null;
         }
 
-
-        /**
-         * After completing background task Dismiss the progress dialog
-         * *
-         */
         protected void onPostExecute(String result) {
-            if (result == "EMPTY"){
+            if (result != null && result.equals("EMPTY")){
                 pDialog.setMessage("No free food events found.");
                 pDialog.dismiss();
                 alertDialog = new AlertDialog.Builder(new ContextThemeWrapper(TodaysEventsActivity.this, R.style.AlertDialogCustom));
@@ -137,16 +110,16 @@ public class TodaysEventsActivity extends Activity {
                                 // dismiss the dialog once done
                                 dialog.cancel();
                             }}, 3000);
-            }});
-            alertDialog.create();
-            alertDialog.show();
+                }});
+                alertDialog.create();
+                alertDialog.show();
             }
             else{
                 // dismiss the dialog after getting all events
                 pDialog.dismiss();
 
-            // updating UI from Background Thread
-            runOnUiThread(new Runnable() {
+                // updating UI from Background Thread
+                runOnUiThread(new Runnable() {
                 public void run() {
 
                     /**
@@ -164,10 +137,8 @@ public class TodaysEventsActivity extends Activity {
                     lv.setOnItemClickListener(new OnEventClickListener());
 
                 }
-
-
-            });
+                });
+            }
         }
     }
-}
 }

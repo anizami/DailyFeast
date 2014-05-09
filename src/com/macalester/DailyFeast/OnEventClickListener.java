@@ -11,7 +11,6 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.TextView;
 
-
 public class OnEventClickListener implements OnItemClickListener {
 
     @Override
@@ -25,15 +24,12 @@ public class OnEventClickListener implements OnItemClickListener {
         Event eventClicked = (Event) textViewEvent.getTag();
 
         Intent intent = new Intent(context, SpecificEventActivity.class);
-        intent.putExtra(TodaysEventsActivity.EXTRA_TITLE, eventClicked.getTitle());
-        intent.putExtra(TodaysEventsActivity.EXTRA_TIME,  eventClicked.getTime());
-        intent.putExtra(TodaysEventsActivity.EXTRA_LOCATION,  eventClicked.getLocation());
-        intent.putExtra(TodaysEventsActivity.EXTRA_DESCRIPTION,  eventClicked.getDescription());
+        intent.putExtra(EventAttributes.TITLE.toString(), eventClicked.getTitle());
+        intent.putExtra(EventAttributes.TIME.toString(), eventClicked.getTime());
+        intent.putExtra(EventAttributes.LOCATION.toString(), eventClicked.getLocation());
+        intent.putExtra(EventAttributes.DESCRIPTION.toString(), eventClicked.getDescription());
         context.startActivity(intent);
-
     }
-
-
 }
 
 
