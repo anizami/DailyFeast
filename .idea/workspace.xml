@@ -927,7 +927,7 @@
       <workItem from="1399485367897" duration="13549000" />
       <workItem from="1399517842131" duration="189000" />
       <workItem from="1399530288292" duration="18840000" />
-      <workItem from="1399596982808" duration="3815000" />
+      <workItem from="1399596982808" duration="3848000" />
     </task>
     <task id="LOCAL-00001" summary="I made no change">
       <created>1393206123064</created>
@@ -1021,11 +1021,15 @@
       <created>1399600514424</created>
       <updated>1399600514424</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="splash screen activity test&#10;">
+      <created>1399602836149</created>
+      <updated>1399602836149</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301442000" />
+    <option name="totallyTimeSpent" value="301475000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1148,7 +1152,8 @@
     <MESSAGE value="Renamed example to macalester yo&#10;" />
     <MESSAGE value="no title bar and added splash screen&#10;" />
     <MESSAGE value="added alertdialog for no events (Asra says yo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added alertdialog for no events (Asra says yo)" />
+    <MESSAGE value="splash screen activity test&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="splash screen activity test&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
