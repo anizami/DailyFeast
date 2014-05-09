@@ -40,7 +40,7 @@ public class SpecificEventActivity extends Activity {
         if (eventLocation == null){
             eventLocation = "Unable to find information";
         }
-        if (eventDescription == null){
+        if (eventDescription == null || eventDescription.equals("")){
             eventDescription = "Unable to find information";
         }
         if (eventTime == null){
