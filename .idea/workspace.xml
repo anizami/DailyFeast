@@ -21,7 +21,9 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fed879-c58f-49ab-b33c-c8e3cefaacce" name="Default" comment="">
+    <list default="true" id="40fed879-c58f-49ab-b33c-c8e3cefaacce" name="Default" comment="splash screen activity test&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/home_menu.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DailyFeast.iws" />
@@ -95,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SplashScreenActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SplashScreenActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="570">
+            <state line="14" column="4" selection-start="423" selection-end="423" vertical-scroll-proportion="0.5570292" vertical-offset="0" max-vertical-offset="600">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,10 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateNewEventActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CreateNewEventActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="39" selection-start="3226" selection-end="3287" vertical-scroll-proportion="0.4945055" vertical-offset="765" max-vertical-offset="2745">
+            <state line="88" column="0" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2745">
               <folding>
                 <element signature="e#2712#3203#0" expanded="true" />
                 <element signature="e#3201#3202#0" expanded="true" />
@@ -233,7 +235,6 @@
         <option value="$PROJECT_DIR$/src/com/example/DailyFeast/NewEventActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/DailyFeast/StartUpActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/DailyFeast/CreateNewEventActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java" />
         <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/home_menu.xml" />
         <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/Event.java" />
@@ -253,6 +254,7 @@
         <option value="$PROJECT_DIR$/res/layout/add_event.xml" />
         <option value="$PROJECT_DIR$/res/menu/home_menu.xml" />
         <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/TodaysEventsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java" />
       </list>
     </option>
   </component>
@@ -927,7 +929,7 @@
       <workItem from="1399485367897" duration="13549000" />
       <workItem from="1399517842131" duration="189000" />
       <workItem from="1399530288292" duration="18840000" />
-      <workItem from="1399596982808" duration="3848000" />
+      <workItem from="1399596982808" duration="3985000" />
     </task>
     <task id="LOCAL-00001" summary="I made no change">
       <created>1393206123064</created>
@@ -1025,11 +1027,15 @@
       <created>1399602836149</created>
       <updated>1399602836149</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="splash screen activity test&#10;">
+      <created>1399602877909</created>
+      <updated>1399602877909</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301475000" />
+    <option name="totallyTimeSpent" value="301612000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1474,13 +1480,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/home_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/EventsArrayAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="97" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="855">
@@ -1549,21 +1548,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="570">
+        <state line="88" column="0" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2745">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2712#3203#0" expanded="true" />
+            <element signature="e#3201#3202#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/CreateNewEventActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/menu/home_menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="39" selection-start="3226" selection-end="3287" vertical-scroll-proportion="0.4945055" vertical-offset="765" max-vertical-offset="2745">
+        <state line="9" column="7" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/macalester/DailyFeast/SplashScreenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="423" selection-end="423" vertical-scroll-proportion="0.5570292" vertical-offset="0" max-vertical-offset="600">
           <folding>
-            <element signature="e#2712#3203#0" expanded="true" />
-            <element signature="e#3201#3202#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
